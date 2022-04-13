@@ -1,0 +1,9 @@
+<ui-sys	tabbar>
+
+  <ui-navbar back="{{false}}" bg="ui-BG-Main" op isSlot>
+    <view class="flex-bar p-3">
+      hello world
+    </view>
+  </ui-navbar>
+
+</ui-sys>
