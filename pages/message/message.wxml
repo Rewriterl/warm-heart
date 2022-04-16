@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!-- tabbar -->
 <ui-sys	tabbar>
 
@@ -21,8 +20,4 @@
   </view>
 </view>
 
-=======
-<ui-sys	tabbar>
-
->>>>>>> 73f424a35a4f163332f8ef0ab1fe1294c3643e29
 </ui-sys>

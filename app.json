@@ -1,16 +1,11 @@
 {
   "pages": [
-<<<<<<< HEAD
     "pages/message/message",
     "pages/index/index",
-    
-=======
-    "pages/index/index",
-    "pages/message/message",
->>>>>>> 73f424a35a4f163332f8ef0ab1fe1294c3643e29
     "pages/shop/shop",
     "pages/home/home",
-    "pages/moment/moment"
+    "pages/moment/moment",
+    "pages/forest/forest"
   ],
   "window": {
     "backgroundTextStyle": "light",
