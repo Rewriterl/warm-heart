@@ -1,3 +1,28 @@
+<<<<<<< HEAD
+<!-- tabbar -->
 <ui-sys	tabbar>
 
+<!-- navbar -->
+<view class="navbar">
+  <image class="bell" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNjUwMDkzNzYyMjc4IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjU3ODAiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCI+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48L3N0eWxlPjwvZGVmcz48cGF0aCBkPSJNODQ5LjYgNzEzLjRjOC40LTAuNCAxNi43IDEuOCAyMy44IDYuNC0yOC45LTE4LjUtNDYuNC01MC40LTQ2LjMtODQuOFY0MzZjMC0xNDUuOS0xMDUuNy0yNjcuNi0yNDYuOS0yOTcuNXYtNy4yYzAtMzcuMS0zMC4xLTY3LjEtNjcuMi02Ny4xaC0wLjFjLTM3LjEgMC02Ny4zIDMwLjEtNjcuMyA2Ny4ydjdDMzA0LjMgMTY4LjQgMTk4LjcgMjkwIDE5OC43IDQzNnYxOTkuMWMwIDM1LjctMTguNiA2Ni45LTQ2LjQgODQuOCA3LTQuNiAxNS40LTYuOSAyMy44LTYuNC0yNC43LTAuOS00NS41IDE4LjQtNDYuNCA0My4xLTAuOSAyNC43IDE4LjQgNDUuNSA0My4xIDQ2LjRoNjc2LjZjMjQuNyAwLjEgNDQuOC0yMCA0NC45LTQ0LjcgMC4xLTI0LjgtMTkuOS00NC45LTQ0LjctNDQuOXpNNTEzIDk1OS44YzYyIDAgMTEyLjItNTAuMiAxMTIuMi0xMTEuOUg0MDAuN2MwIDYxLjcgNTAuMiAxMTEuOSAxMTIuMyAxMTEuOXoiIGZpbGw9IiNmZmZmZmYiIHAtaWQ9IjU3ODEiPjwvcGF0aD48L3N2Zz4="></image>
+  <text class="hint_1">消息中心</text>
+</view>
+
+<!-- 消息合集 -->
+<view class="list">
+  <view class="info" wx:for="{{active_list.length}}">
+    <view class="info_image_border" style="background-color:{{active_list[index].background_color}};">
+      <image class="info_image" src="{{active_list[index].image}}"></image>
+    </view>
+    <text class="hint_image">{{active_list[index].name}}</text>
+    <text class="hint_time">{{active_list[index].time}}</text>
+    <text class="hint_active">{{active_list[index].ad}}</text>
+    <view class="underline"></view>
+  </view>
+</view>
+
+=======
+<ui-sys	tabbar>
+
+>>>>>>> 73f424a35a4f163332f8ef0ab1fe1294c3643e29
 </ui-sys>
