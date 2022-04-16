@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 .navbar{
@@ -97,3 +98,6 @@
   left: 20rpx;
   background-color: rgb(194, 193, 193);
 }
+=======
+/* pages/message/message.wxss */
+>>>>>>> 73f424a35a4f163332f8ef0ab1fe1294c3643e29
