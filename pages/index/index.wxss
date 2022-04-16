@@ -134,8 +134,7 @@
 .ui-item image {
     width: 80rpx;
     height: 80rpx;
-    margin: auto;
-    margin-bottom: 20rpx;
+    margin: auto auto 20rpx;
     display: block;
 }
 

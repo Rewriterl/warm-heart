@@ -95,7 +95,15 @@ Page({
         wx.switchTab({
             url: url
         });
-    }
+    },
+
+    goForest: function (e) {
+        var id = e.currentTarget.dataset.id,
+            url = '/pages/forest/forest';
+        wx.navigateTo({
+            url: url
+        });
+    },
 
     // 广告相关配置
     // adbinderror: function (e) {
