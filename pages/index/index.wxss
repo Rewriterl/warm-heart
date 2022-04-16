@@ -1,5 +1,43 @@
+.qr-text {
+    left: 16px;
+    top: 155px;
+    width: 55px;
+    height: 25px;
+    color: rgba(255, 255, 255, 100);
+    font-size: 18px;
+    text-align: left;
+}
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.text-center {
+    margin: 0 auto;
+}
+
+.logo-wrapper-list {
+    display: block;
+    text-align: center;
+}
+
+
 .index-top {
     position: relative;
+}
+
+.box-bg {
+
+}
+
+.logo {
+    color: #fff;
+    font-size: large;
 }
 
 .indexbg {

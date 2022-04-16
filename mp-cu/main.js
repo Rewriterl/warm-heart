@@ -244,7 +244,7 @@ export default class ColorUI {
             return {
                 ...(o.data || {}),
                 sys_info: sys_info,
-                sys_navBar: sys_info.statusBarHeight + 50,
+                sys_navBar: sys_info.statusBarHeight + 124,
                 sys_statusBar: sys_info.statusBarHeight,
                 sys_capsule: sys_capsule(),
                 version: version,

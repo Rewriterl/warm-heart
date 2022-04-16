@@ -1,2 +1,3 @@
-<!--pages/shop/shop.wxml-->
-<text>pages/page/page.wxml</text>
+<ui-sys tabbar>
+
+</ui-sys>

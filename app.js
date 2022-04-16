@@ -1,14 +1,13 @@
-import { colorUI } from './utils/uiconfig.js'
+import {colorUI} from './utils/uiconfig.js'
+
 App({
-    
-  colorUI, 
-  onLaunch: function () {
-    
-  },
-  getUserInfo:function(){
 
-  },
-  globalData: {
+    colorUI,
+    onLaunch: function () {
 
-  }
+    },
+    getUserInfo: function () {
+
+    },
+    globalData: {}
 })

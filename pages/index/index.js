@@ -10,6 +10,7 @@ Page({
         // listAdsuccess: true,
         // webSiteName: webSiteName,
         // domain: domain,
+        swipe_nav: ["../../asserts/我的.png","https://tva2.sinaimg.cn/large/6833939bly1gipev1x5e4j20zk0m8b29.jpg","https://tva2.sinaimg.cn/large/6833939bly1giclhnx9glj20zk0m8npd.jpg"],
         isFirst: false, // 是否第一次打开,
         isLoading: false
     },

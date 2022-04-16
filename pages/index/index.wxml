@@ -1,9 +1,26 @@
-<ui-sys	tabbar>
+<ui-sys tabbar>
 
-  <ui-navbar back="{{false}}" bg="ui-BG-Main" op isSlot>
-    <view class="flex-bar p-3">
-      hello world
-    </view>
-  </ui-navbar>
+    <ui-navbar back="{{false}}" bg="ui-BG-Main main-yellow" op isSlot>
+        <view class="logo-wrapper">
+            <view class="logo-wrapper-list">
+                <ui-img ui="text-center" src="../../../../asserts/arcoDesign-qrcode.svg" width="50px" height="50px"></ui-img>
+                <text class="qr-text">健康码</text>
+            </view>
+            <view class="logo-wrapper-list">
+                <ui-img ui="text-center" src="../../../../asserts/ze-wechat.svg" width="50px" height="50px"></ui-img>
+                <text class="qr-text">行程码</text>
+            </view>
+            <view class="logo-wrapper-list">
+                <ui-img ui="text-center" src="../../../../asserts/ze-column.svg" width="50px" height="50px"></ui-img>
+                <text class="qr-text">核酸预约</text>
+            </view>
+            <view class="logo-wrapper-list">
+                <ui-img ui="text-center" src="../../../../asserts/iconPark-smart-optimization.svg" width="50px"
+                        height="50px"></ui-img>
+                <text class="qr-text">智能家居</text>
+            </view>
+        </view>
+    </ui-navbar>
 
 </ui-sys>
+

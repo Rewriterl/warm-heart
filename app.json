@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/message/message",
     "pages/shop/shop",
-    "pages/home/home"
+    "pages/home/home",
+    "pages/moment/moment"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -36,6 +37,11 @@
       },
       {
         "pagePath": "pages/home/home",
+
+        "text": " "
+      },
+      {
+        "pagePath": "pages/moment/moment",
 
         "text": " "
       }
