@@ -5,7 +5,7 @@
                     height="24px" style="display:inline-block"/>
             <text class="anti-es-title">抗击新冠疫情</text>
             <text class="anti-es-date">截至2022.4.13</text>
-            <view class="p-5 m-2 bg-white" style="height:120px;">
+            <view class="p-5 m-2 bg-white" style="height:120px;border-radius: 15px;">
                 <view>
                     <text class="">辽宁新增</text>
                     <text style="color:green">{{1}}</text>
