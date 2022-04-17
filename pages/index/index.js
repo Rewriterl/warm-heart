@@ -20,6 +20,13 @@ Page({
         isFirst: false, // 是否第一次打开,
         isLoading: false
     },
+
+    toNuclein:function(){
+        wx.navigateTo({
+          url: '../nuclein/nuclein',
+        })
+    },
+
     onShareAppMessage: function () {
         return {
             title: '“' + "webSiteName" + '”暖社区',

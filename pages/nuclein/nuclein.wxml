@@ -1,0 +1,63 @@
+<!-- page -->
+<view class="page">
+  <!--navbar-->
+  <view class="navbar">
+    <image class="back" src="{{back_arrow}}" bindtap="backIndex"></image>
+    <text class="hint_1">核算预约</text>
+  </view>
+
+  <!-- 主体信息 -->
+  <view class="test_info">
+    <!-- 选择检测地点 -->
+    <view class="info">
+      <text class="hint_2">选择检测地点</text>
+      <view class="select" bindtap='select1'>
+        <text class="select_text">{{type1!=''?type1:'选择核算检测地点'}}</text>
+        <image class="select_image" src="{{down_arrow}}"></image>
+        <view class="selectbox" style="{{isSelect1?'height:'+54*test_address.length+'rpx;':'border:0'}}">
+          <view class="type" catchtap="getType1" wx:for="{{test_address}}" data-type="{{item}}" wx:key="type1">{{item}}</view>
+        </view>
+      </view>
+      <view class="underline"></view>
+    </view>
+    <!-- 选择检测时间段 -->
+    <view class="info">
+      <text class="hint_2">选择检测时间段</text>
+      <view class="select" bindtap='select2'>
+        <text class="select_text">{{type2!=''?type2:'选择核算检测时间段'}}</text>
+        <image class="select_image" src="{{down_arrow}}"></image>
+        <view class="selectbox" style="{{isSelect2?'height:'+54*test_time.length+'rpx;':'border:0'}}">
+          <view class="type" catchtap="getType2" wx:for="{{test_time}}" data-type="{{item}}" wx:key="type2">{{item}}</view>
+        </view>
+      </view>
+      <view class="underline"></view>
+    </view>
+    <!-- 健康码检查结果 -->
+    <view class="info">
+      <text class="hint_2">健康码检测结果</text>
+      <view class="select">
+        <text class="result_text">{{test_result[0].text}}</text>
+        <image class="result_image" src="{{test_result[0].image}}"></image>
+      </view>
+      <view class="underline"></view>
+    </view>
+    <!-- 须知 -->
+    <view class="remind">
+      <view class="hint_3">
+        <image class="remind_image" src="{{remind_image}}"></image>
+        <text class="remind_text">须知</text>
+      </view>
+      <view class="remind_info">
+        <text class="re_number">1.</text><view class="re_info">{{remind[0]}}</view>
+        <text class="re_number">2.</text><view class="re_info">{{remind[1]}}</view>
+        <text class="re_number">3.</text><view class="re_info">{{remind[2]}}</view>
+      </view>
+      <view class="checkbox">
+        <checkbox color="#f37b1d" bindtap="changeCheck" checked="{{isCheck}}">我已阅读上述须知</checkbox>
+      </view>
+    </view>
+  </view>
+
+  <!-- 提交button -->
+  <button class="submit" bindtap="submit">提交</button>
+</view>

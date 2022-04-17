@@ -11,8 +11,8 @@
                 <ui-img ui="text-center" src="../../../../asserts/ze-wechat.svg" width="100rpx" height="100rpx"/>
                 <text class="qr-text">行程码</text>
             </view>
-            <view class="logo-wrapper-list">
-                <ui-img ui="text-center" src="../../../../asserts/ze-column.svg" width="100rpx" height="100rpx"/>
+            <view class="logo-wrapper-list" bindtap="toNuclein">
+                <ui-img ui="text-center" src="../../../../asserts/ze-column.svg" width="50px" height="50px" ></ui-img>
                 <text class="qr-text">核酸预约</text>
             </view>
             <view class="logo-wrapper-list">
