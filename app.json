@@ -1,16 +1,12 @@
 {
   "pages": [
-<<<<<<< HEAD
-    "pages/message/message",
-    "pages/index/index",
     
-=======
     "pages/index/index",
     "pages/message/message",
->>>>>>> 73f424a35a4f163332f8ef0ab1fe1294c3643e29
     "pages/shop/shop",
     "pages/home/home",
-    "pages/moment/moment"
+    "pages/moment/moment",
+    "pages/nuclein/nuclein"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -20,7 +16,6 @@
     "navigationStyle": "custom"
   },
   "tabBar": {
-
     "color": "#959595",
     "selectedColor": "#118fff",
     "borderStyle": "white",
@@ -28,27 +23,22 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-
         "text": " "
       },
       {
         "pagePath": "pages/message/message",
-
         "text": " "
       },
       {
         "pagePath": "pages/shop/shop",
-
         "text": " "
       },
       {
         "pagePath": "pages/home/home",
-
         "text": " "
       },
       {
         "pagePath": "pages/moment/moment",
-
         "text": " "
       }
     ]

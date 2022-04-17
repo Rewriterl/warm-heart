@@ -1,0 +1,205 @@
+page{
+  width: 100%;
+  height: 100%;
+}
+
+.page{
+  width: 100%;
+  height: 100%;
+  background-color: #e8e8e8;
+}
+
+.navbar{
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  background-color: #FF8A41;
+}
+
+.back{
+  position: absolute;
+  width: 50rpx;
+  height: 50rpx;
+  top: 50%;
+  left: 20rpx;
+}
+
+.hint_1{
+  position: absolute;
+  width: 200rpx;
+  height: 70rpx;
+  top: 50%;
+  left: 40%;
+  color: white;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.test_info{
+  position: relative;
+  width: 95%;
+  height: 78%;
+  top: 12%;
+  left: 20rpx;
+  background-color: white;
+  border-radius: 10rpx;
+}
+
+.info{
+  position: relative;
+  width: 100%;
+  height: 160rpx;
+}
+
+.hint_2{
+  position: absolute;
+  width: 300rpx;
+  height: 60rpx;
+  top: 20rpx;
+  left: 20rpx;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.select{
+  position: absolute;
+  width: 100%;
+  height: 40rpx;
+  top: 100rpx;
+}
+
+.select_text{
+  position: absolute;
+  width: 600rpx;
+  height: 40rpx;
+  left: 20rpx;
+}
+
+.select_image{
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  right: 20rpx;
+}
+
+
+.selectbox{
+  position: absolute;
+  z-index: 10;
+  border: 1rpx solid rgba(119,119,119,0.25);
+  padding: 0 8rpx;
+  top:46rpx;
+  width: 100%;
+  overflow: auto;
+  height: 0;
+  max-height: 200rpx;
+  background-color:#ffffff;
+  box-sizing: border-box;
+  transition: height 0.5s;/* 高度变换过渡 */
+ }
+ .selectbox .type{
+  border-top: 1px solid rgba(119,119,119,0.25);
+  padding: 6rpx;
+ }
+
+ .selectbox :first-child{
+  border: 0;
+ }
+
+.underline{
+  position: absolute;
+  width: 100%;
+  height: 2rpx;
+  bottom: 0rpx;
+  background-color: rgba(119,119,119,0.25);
+}
+
+.result_text{
+  position: absolute;
+  width: 100rpx;
+  height: 40rpx;
+  left: 20rpx;
+}
+
+.result_image{
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  right: 20rpx;
+}
+
+.remind{
+  position: absolute;
+  width: 100%;
+  height: 550rpx;
+}
+
+.hint_3{
+  position: absolute;
+  top: 20rpx;
+  width: 100%;
+  height: 40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.remind_image{
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.remind_text{
+  width: 80rpx;
+  height: 40rpx;
+  font-size: 15px;
+}
+
+.remind_info{
+  position: relative;
+  width: 100%;
+  height: 350rpx;
+  top: 100rpx;
+}
+
+.re_number{
+  position: relative;
+  left: 10rpx;
+  width: 30rpx;
+  height: 20rpx;
+  font-size: 14px;
+}
+
+.re_info{
+  position: relative;
+  width: 660rpx;
+  height: 100rpx;
+  top: -37rpx;
+  left: 40rpx;
+}
+
+.checkbox{
+  position: absolute;
+  width: 60%;
+  height: 80rpx;
+  bottom: 0;
+  left: 28%;
+  font-size: 16px;
+  font-weight: bold;
+  color: #f37b1d;
+}
+
+.submit{
+  position: absolute;
+  width: 95%;
+  height: 80rpx;
+  bottom: 30rpx;
+  left: 20rpx;
+  background-color: #f37b1d;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10rpx;
+  box-shadow: 0 .125em .25em rgba(0, 0, 0, 0.475) ;
+}
