@@ -1,1 +1,111 @@
 /* pages/shop/shop.wxss */
+.p-my-title{
+  padding:5px 10px;
+}
+
+.m-myblock {
+  margin:5px 7px;
+}
+
+.myflex-around {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+.myflex-between {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.myflex-ybetween {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
+
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+
+}
+
+.header-above {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width:100%;
+}
+
+.above-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+.title {
+  font-family: ZKGaoDuanHei;
+  font-weight: 650;
+  font-size: 40px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 100%;
+  margin:5px 10px;
+
+
+}
+
+.t2 {
+  font-family: SourceHanSerif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.below-container {
+  margin:5px 0px;
+  width:100%;
+  height:35px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+}
+.searchbar {
+  width : 98%;
+  background-color: white;
+}
+
+.shb-height {
+  height:28px;
+}
+
+/* navabr end */
+
+
+.block1 {
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+  padding:5px 0px
+}
+
+.rect-size {
+  width:60px;
+  height:80px;
+}
+
+
+.l2-title {
+  padding:5px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
