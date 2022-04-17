@@ -1,0 +1,80 @@
+.header-arrow {
+    position: fixed;
+    left: 28rpx;
+    top: 70rpx;
+    width: 42rpx;
+    height: 42rpx;
+}
+
+.header-bg{
+    background-color: #FF8A41;
+    height: 150rpx;
+}
+
+.header-bg-s{
+    height: 20rpx;
+}
+
+.user-info-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avatar-wrapper{
+    display: inline-block;
+}
+
+.text-wrapper{
+    display: inline-block;
+    opacity: 0.7;
+    border-radius: 15px;
+    background-color: rgba(51, 145, 40, 100);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-align: center;
+    font-family: -apple-system;
+}
+
+.account-wrapper{
+    color: rgba(164, 156, 156, 100);
+    font-size: 28rpx;
+    text-align: center;
+    font-family: SourceHanSansSC-bold;
+}
+
+.text-grid{
+    display: inline-grid;
+    margin-left: -80rpx;
+}
+
+.menu-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 28rpx;
+    height: 190rpx;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 100);
+    color: rgba(162, 154, 154, 100);
+    font-size: 14px;
+    text-align: center;
+    font-family: -apple-system;
+}
+
+.menu-list-t{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20rpx;
+    height: 110rpx;
+    width: 110rpx;
+    border-radius: 55rpx;
+}
+
+.m-l-6{
+    margin-left: 12rpx;
+}

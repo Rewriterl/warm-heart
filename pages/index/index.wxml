@@ -47,7 +47,7 @@
                     height="80rpx"/>
             <text class="menu-logo-text">托管服务</text>
         </view>
-        <view class="ui-item">
+        <view class="ui-item" bind:tap="goNurse">
             <ui-img ui="text-center" src="../../../../asserts/ze-youzan-shield.svg" width="40px"
                     height="80rpx"/>
             <text class="menu-logo-text">护工服务</text>

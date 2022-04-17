@@ -1,10 +1,12 @@
 {
-  "pages": [    
+  "pages": [
+    "pages/nurse/nurse",
     "pages/index/index",
     "pages/message/message",
     "pages/shop/shop",
     "pages/home/home",
     "pages/moment/moment",
+    "pages/forest/forest",
     "pages/nuclein/nuclein"
   ],
   "window": {
