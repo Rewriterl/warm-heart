@@ -83,6 +83,10 @@ Component({
             type: Number,
             value: 0
         },
+        uHeight: {
+            type: Number,
+            value: 0
+        },
     },
     lifetimes: {
         ready() {

@@ -3,112 +3,78 @@
     <ui-navbar back="{{false}}" bg="ui-BG-Main main-yellow" op isSlot>
         <view class="header-logo-wrapper">
             <view class="logo-wrapper-list">
-                <ui-img ui="text-center" src="../../../../asserts/arcoDesign-qrcode.svg" width="50px"
-                        height="50px"></ui-img>
+                <ui-img ui="text-center" src="../../../../asserts/arcoDesign-qrcode.svg" width="100rpx"
+                        height="100rpx"/>
                 <text class="qr-text">健康码</text>
             </view>
             <view class="logo-wrapper-list">
-                <ui-img ui="text-center" src="../../../../asserts/ze-wechat.svg" width="50px" height="50px"></ui-img>
+                <ui-img ui="text-center" src="../../../../asserts/ze-wechat.svg" width="100rpx" height="100rpx"/>
                 <text class="qr-text">行程码</text>
             </view>
             <view class="logo-wrapper-list">
-                <ui-img ui="text-center" src="../../../../asserts/ze-column.svg" width="50px" height="50px"></ui-img>
+                <ui-img ui="text-center" src="../../../../asserts/ze-column.svg" width="100rpx" height="100rpx"/>
                 <text class="qr-text">核酸预约</text>
             </view>
             <view class="logo-wrapper-list">
-                <ui-img ui="text-center" src="../../../../asserts/iconPark-smart-optimization.svg" width="50px"
-                        height="50px"></ui-img>
+                <ui-img ui="text-center" src="../../../../asserts/iconPark-smart-optimization.svg" width="100rpx" height="100rpx"/>
                 <text class="qr-text">智能家居</text>
             </view>
         </view>
     </ui-navbar>
-    <view class="ui-grid ui-cols-5 ui-cols-lg-6 p-3">
+    <view class="ui-grid ui-cols-5 ui-cols-lg-6">
         <view class="ui-item">
-            <ui-img ui="text-center" src="../../../../asserts/ze-wap-home.svg" width="40px"
-                    height="40px"></ui-img>
+            <ui-img ui="text-center" src="../../../../asserts/ze-wap-home.svg" width="80rpx"
+                    height="80rpx"/>
             <text class="menu-logo-text">社区信息</text>
         </view>
         <view class="ui-item">
             <ui-img ui="text-center" src="../../../../asserts/riFill-gps-fill.svg" width="40px"
-                    height="40px"></ui-img>
+                    height="80rpx"/>
             <text class="menu-logo-text">位置</text>
         </view>
         <view class="ui-item">
             <ui-img ui="text-center" src="../../../../asserts/ze-coupon-o.svg" width="40px"
-                    height="40px"></ui-img>
+                    height="80rpx"/>
             <text class="menu-logo-text">家庭户口本</text>
         </view>
         <view class="ui-item">
             <ui-img ui="text-center" src="../../../../asserts/iconPark-baby.svg" width="40px"
-                    height="40px"></ui-img>
+                    height="80rpx"/>
             <text class="menu-logo-text">育儿专区</text>
         </view>
         <view class="ui-item">
             <ui-img ui="text-center" src="../../../../asserts/ze-shop-collect-o.svg" width="40px"
-                    height="40px"></ui-img>
+                    height="80rpx"/>
             <text class="menu-logo-text">托管服务</text>
         </view>
         <view class="ui-item">
             <ui-img ui="text-center" src="../../../../asserts/ze-youzan-shield.svg" width="40px"
-                    height="40px"></ui-img>
+                    height="80rpx"/>
             <text class="menu-logo-text">护工服务</text>
         </view>
         <view class="ui-item">
             <ui-img ui="text-center" src="../../../../asserts/ze-hotel-o.svg" width="40px"
-                    height="40px"></ui-img>
+                    height="80rpx"/>
             <text class="menu-logo-text">物流综合</text>
         </view>
-        <view class="ui-item">
+        <view class="ui-item" bind:tap="goForest">
             <ui-img ui="text-center" src="../../../../asserts/iconPark-leaves.svg" width="40px"
-                    height="40px"></ui-img>
+                    height="80rpx"/>
             <text class="menu-logo-text">社区森林</text>
         </view>
         <view class="ui-item">
             <ui-img ui="text-center" src="../../../../asserts/ze-balance-pay.svg" width="40px"
-                    height="40px"></ui-img>
+                    height="80rpx"/>
             <text class="menu-logo-text">我的钱包</text>
         </view>
         <view class="ui-item">
             <ui-img ui="text-center" src="../../../../asserts/ze-weapp-nav.svg" width="40px"
-                    height="40px"></ui-img>
+                    height="80rpx"/>
             <text class="menu-logo-text">更多</text>
         </view>
     </view>
     <ui-img ui="radius border" src="../../../../asserts/swiper-1.png" local current="0"/>
-    <view class="ui-grid ui-cols-2 ui-cols-lg-6 p-3">
-        <view class="ui-item">
-            <view class="ui-grid p-1">
-                <ui-img ui="text-center" src="../../../../asserts/ze-fire.svg" width="24px"
-                        height="24px"></ui-img>
-                <text class="anti-es-title">抗击新冠疫情</text>
-                <text class="anti-es-date">截至2022.4.13</text>
-                <view class="p-5 m-2 bg-white" style="height:120px">
-                    <view>
-                        <text class="">辽宁新增</text>
-                        <text style="color:green">{{1}}</text>
-                    </view>
-                    <view>
-                        <text class="">国内新增</text>
-                        <text style="color:#FF8A41">{{2250}}</text>
-                    </view>
-                    <view>
-                        <text class="">现有病例</text>
-                        <text s style="color:#F23E3E">{{24168}}</text>
-                    </view>
-                </view>
-            </view>
-        </view>
-        <view class="ui-item">
-            <view class="p-3 bg-white info-card" style="height:170px">
-                <view style="text-align:left">
-                    <text class="info-card-title">实时资讯</text>
-                    <text>
-                        中新社北京4月13日：据美国约翰斯·霍普金斯大学于北京时间13日6时20分发布的数据显示，全球累计确诊病例超5亿例。目前，极易传播的新冠变异病毒奥....
-                    </text>
-                </view>
-            </view>
-        </view>
-    </view>
+    <esInfo/>
 
 </ui-sys>
 

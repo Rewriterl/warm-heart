@@ -27,33 +27,43 @@
       "disablePlugins": [],
       "outputPath": ""
     },
-    "enableEngineNative": false,
-    "useIsolateContext": true,
-    "userConfirmedBundleSwitch": false,
-    "packNpmManually": false,
-    "packNpmRelationList": [],
-    "minifyWXSS": true,
-    "disableUseStrict": false,
-    "minifyWXML": true,
-    "showES6CompileOption": false,
-    "useCompilerPlugins": [
-      "sass"
-    ],
-    "useStaticServer": true
-  },
-  "compileType": "miniprogram",
-  "libVersion": "2.21.3",
-  "appid": "wxa950e27631a54ec2",
-  "projectname": "winxin-app-watch-life.net",
-  "simulatorType": "wechat",
-  "simulatorPluginLibVersion": {},
-  "condition": {},
-  "packOptions": {
-    "ignore": [],
-    "include": []
-  },
-  "editorSetting": {
-    "tabIndent": "insertSpaces",
-    "tabSize": 2
-  }
+
+    "compileType": "miniprogram",
+    "libVersion": "2.21.3",
+    "appid": "wxa950e27631a54ec2",
+    "projectname": "warm-heart",
+    "simulatorType": "wechat",
+    "simulatorPluginLibVersion": {},
+    "condition": {
+        "search": {
+            "list": [
+                {
+                    "name": "test",
+                    "pathName": "",
+                    "title": "",
+                    "cacheKey": ""
+                }
+            ]
+        },
+        "conversation": {
+            "list": [
+                {
+                    "name": "test",
+                    "query": "",
+                    "boxQI": "",
+                    "service": {}
+                }
+            ]
+        },
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": []
+        }
+    }
 }
+

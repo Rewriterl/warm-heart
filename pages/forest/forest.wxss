@@ -1,0 +1,56 @@
+.forest-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    bottom: 1px;
+    height: 10%;
+    line-height: 20px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: rgba(255, 255, 255, 100);
+    text-align: center;
+}
+
+@media screen and (min-height: 800px) {
+    .forest-footer {
+        height: 30%;
+    }
+}
+
+.cart-logo {
+    display: inline-block;
+    left: 85rpx;
+    bottom: 60 rps;
+    width: 54rpx;
+    height: 47rpx;
+    margin-right: 25rpx;
+}
+
+.header-arrow {
+    position: fixed;
+    left: 14px;
+    top: 70rpx;
+    width: 21px;
+    height: 21px;
+}
+
+.m-t {
+    margin-top: 140rpx;
+}
+
+.cicular {
+    border-radius: 50px;
+}
+
+.drop {
+    position: fixed;
+    top: 224rpx;
+    margin-left: 65rpx;
+    z-index: 100;
+}
+
+.logo-intro {
+    margin-left: 58rpx;
+    font-size: 15px;
+}

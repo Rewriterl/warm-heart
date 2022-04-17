@@ -1,0 +1,90 @@
+.user-info-wrapper {
+    position: fixed;
+    top: 130rpx;
+    display: flex;
+    align-content: center;
+}
+
+.user-avatar {
+    margin-left: 20rpx;
+}
+
+.username {
+    display: block;
+    width: 196rpx;
+    height: 52rpx;
+    line-height: 52rpx;
+    color: rgba(0, 0, 0, 1);
+    font-size: 14px;
+    text-align: left;
+}
+
+.user-info-block {
+    display: inline-block;
+    margin-left: 20rpx;
+}
+
+.user-account {
+    display: block;
+    height: 52rpx;
+    /*line-height: 52rpx;*/
+    color: rgba(240, 239, 239, 100);
+    font-size: 14px;
+    text-align: left;
+    font-family: SourceHanSansSC-bold;
+}
+
+.home-zone {
+    opacity: 0.7;
+    border-radius: 30rpx;
+    color: #FF8A41;
+    text-align: center;
+    background-color: rgba(240, 239, 239, 100);
+}
+
+.home-header {
+    position: fixed;
+    height: 444rpx;
+    width: 100%;
+    top: 0px;
+    z-index: 1001;
+    background-color: #FF8A41;
+}
+
+.home-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 300rpx;
+}
+
+.menu-text{
+    color: #fff;
+    font-size: 22rpx;
+}
+
+.home-menu-item{
+    text-align: center;
+}
+
+.home-menu-sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 218rpx;
+    line-height: 40rpx;
+    border-radius: 30rpx;
+    background-color: rgba(255, 255, 255, 100);
+    color: rgba(162, 154, 154, 100);
+    font-size: 14px;
+    text-align: center;
+    font-family: -apple-system;
+}
+
+.menu-sub-text{
+    color: black;
+    font-size: 28rpx;
+}
