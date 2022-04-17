@@ -1,8 +1,8 @@
 {
   "pages": [
-    "pages/forest/forest",
     "pages/index/index",
     "pages/message/message",
+    "pages/forest/forest",
     "pages/shop/shop",
     "pages/home/home",
     "pages/moment/moment"

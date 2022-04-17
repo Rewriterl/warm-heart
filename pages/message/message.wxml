@@ -9,7 +9,7 @@
 
 <!-- 消息合集 -->
 <view class="list">
-  <view class="info" wx:for="{{active_list.length}}">
+  <view class="info" wx:for="{{active_list.length}}" wx:key="index">
     <view class="info_image_border" style="background-color:{{active_list[index].background_color}};">
       <image class="info_image" src="{{active_list[index].image}}"></image>
     </view>
