@@ -1,7 +1,5 @@
 {
-  "enablePullDownRefresh": true,
   "usingComponents": {
-    "esInfo": "/components/esinfo/esInfo",
     "ui-img": "/mp-cu/colorUI/components/ui-img/ui-img"
   }
 }

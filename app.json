@@ -1,6 +1,5 @@
 {
-  "pages": [
-    
+  "pages": [    
     "pages/index/index",
     "pages/message/message",
     "pages/shop/shop",

@@ -1,4 +1,7 @@
 {
   "enablePullDownRefresh": true,
-  "navigationStyle": "custom"
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "esInfo": "/components/esinfo/esInfo"
+  }
 }

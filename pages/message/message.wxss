@@ -29,7 +29,7 @@
   height: 1200rpx;
   display: flex;
   flex-direction: column;
-  
+
 }
 
 .info{

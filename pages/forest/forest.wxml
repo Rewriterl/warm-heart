@@ -1,0 +1,30 @@
+<ui-sys img="../../../../asserts/forest.png">
+    <ui-img class="header-arrow" src="../../../../asserts/ze-arrow-left-copy.svg" width="24px"
+            height="24px" bind:tap="redictHome"></ui-img>
+    <view class="ui-grid ui-cols-4 ui-cols-lg-6 p-3 m-t">
+        <view class="ui-item">
+            <ui-img src="../../../../asserts/riFill-drop-fill.svg" width="27px" height="27px" class="drop"></ui-img>
+            <view class="p-5 bg-my-1 m-4 cicular"></view>
+            <text class="logo-intro">浇水</text>
+        </view>
+        <view class="ui-item">
+            <ui-img src="../../../../asserts/if-bucket.svg" width="27px" height="27px" class="drop"></ui-img>
+            <view class="p-5 bg-my-2 m-4 cicular"></view>
+            <text class="logo-intro">施肥</text>
+        </view>
+        <view class="ui-item">
+            <ui-img src="../../../../asserts/fas-fa-cut.svg" width="27px" height="27px" class="drop"></ui-img>
+            <view class="p-5 bg-my-3 m-4 cicular"></view>
+            <text class="logo-intro">修剪</text>
+        </view>
+        <view class="ui-item">
+            <ui-img src="../../../../asserts/fas-fa-tree.svg" width="27px" height="27px" class="drop"></ui-img>
+            <view class="p-5 bg-my-4 m-4 cicular"></view>
+            <text class="logo-intro">森林</text>
+        </view>
+    </view>
+    <view class="forest-footer">
+        <ui-img class="cart-logo" src="../../../../asserts/riLine-shopping-cart-2-line.svg" width="24px"
+                height="24px"></ui-img>前往积分商城
+    </view>
+</ui-sys>
