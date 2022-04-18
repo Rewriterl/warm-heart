@@ -1,0 +1,156 @@
+page{
+  width: 100%;
+  height: 100%;
+}
+
+.page{
+  width: 100%;
+  height: 100%;
+}
+
+.navbar{
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  background-color: #FF8A41;
+}
+
+.back{
+  position: absolute;
+  width: 50rpx;
+  height: 50rpx;
+  top: 50%;
+  left: 20rpx;
+}
+
+.hint_1{
+  position: absolute;
+  width: 200rpx;
+  height: 70rpx;
+  top: 50%;
+  left: 40%;
+  color: white;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.pet_list{
+  position: relative;
+  width: 100%;
+  top: 140rpx;
+}
+
+.pet_info{
+  position: relative;
+  width: 100%;
+  height: 200rpx;
+}
+
+.pet_image{
+  position: absolute;
+  width: 120rpx;
+  height: 120rpx;
+  top: 20rpx;
+  left: 20rpx;
+  border-radius: 100rpx;
+}
+
+.pet_name{
+  position: absolute;
+  width: 100rpx;
+  height: 40rpx;
+  top: 20rpx;
+  left: 160rpx;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.pet_address{
+  position: absolute;
+  width: 200rpx;
+  height: 40rpx;
+  top: 50rpx;
+  right: 20rpx;
+  font-size: 15px;
+  font-weight: bold;
+  color: #FF8A41;
+}
+
+.pet_status{
+  position: absolute;
+  width: 150rpx;
+  height: 40rpx;
+  top: 100rpx;
+  left: 160rpx;
+  font-size: 15px;
+  color: #919191;
+}
+
+.switch{
+  position: absolute;
+  top: 100rpx;
+  left: 300rpx;
+}
+
+.wx-switch-input{
+  width:42px !important;
+  height:22px !important;
+}
+.wx-switch-input::before{
+  width:40px !important;
+  height: 20px !important;
+}
+.wx-switch-input::after{
+  width: 18px !important;
+  height: 18px !important;
+}
+
+.underline{
+  position: absolute;
+  width: 100%;
+  height: 5rpx;
+  bottom: 20rpx;
+  background-color: rgba(119,119,119,0.25);
+}
+
+.trusteeship{
+  position: relative;
+  width: 100%;
+  height: 90rpx;
+  border-radius: 25rpx;
+  margin-top: 40rpx;
+  background-color: #dddddd;
+}
+
+.hint_2{
+  position: absolute;
+  width: 250rpx;
+  height: 40rpx;
+  top: 20rpx;
+  left: 40rpx;
+  font-size: 17px;
+}
+
+.nu_order{
+  position: absolute;
+  width: 50rpx;
+  height: 50rpx;
+  left: 200rpx;
+  top: 20rpx;
+  border-radius: 100rpx;
+  background-color: #FF8A41;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.details{
+  position: absolute;
+  width: 50rpx;
+  height: 50rpx;
+  top: 20rpx;
+  right: 20rpx;
+}

@@ -1,0 +1,7 @@
+<view class="page">
+  <!--navbar-->
+  <view class="navbar">
+    <image class="back" src="{{back_arrow}}" bindtap="backIndex"></image>
+    <text class="hint_1">家庭户口本</text>
+  </view>
+</view>
