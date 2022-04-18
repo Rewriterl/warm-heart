@@ -1,0 +1,42 @@
+.moment-header{
+    position: fixed;
+    top: 0;
+    height: 150rpx;
+    width: 100% ;
+    z-index: 1001;
+    background-color: #FF8A41;
+}
+
+.moment-search{
+    position: fixed;
+    top: 110rpx;
+    width: 100%;
+}
+
+.flow-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flow-left{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flow-right{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bg-white{
+    background-color: #FFFFFF;
+}

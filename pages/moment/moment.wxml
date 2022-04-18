@@ -1,3 +1,20 @@
-<ui-sys	tabbar>
-
+<ui-sys tabbar bg="bg-white">
+    <view class="moment-header">
+        <view class="moment-search">
+            <ui-search-bar isRight barBg="bg-yellow" placeholder="家庭聚餐">
+                <text style="color:#fff">搜索</text>
+            </ui-search-bar>
+        </view>
+    </view>
+    <view class="menu-block"></view>
+    <view class="menu-list">
+        <text class="menu-all">全部</text>
+        <text class="menu-warn">救援</text>
+        <text class="menu-item">家庭</text>
+        <text class="menu-item">宠物</text>
+        <text class="menu-item">娱乐</text>
+    </view>
+    <view style="margin-top:20rpx"></view>
+    <flowInfo model:dataList="{{momentList}}"/>
 </ui-sys>
+
