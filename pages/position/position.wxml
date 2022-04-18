@@ -1,0 +1,5 @@
+<ui-sys>
+    <view class="navbar">
+        <image bind:tap="redictHome" class="back" src="{{back_arrow}}"></image>
+    </view>
+</ui-sys>
