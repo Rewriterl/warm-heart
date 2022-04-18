@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/HouseholdRegister/HouseholdRegister",
+    "pages/Smarthome/Smarthome",
     "pages/nurse/nurse",
     "pages/index/index",
     "pages/message/message",
@@ -9,7 +9,9 @@
     "pages/moment/moment",
     "pages/nuclein/nuclein",
     "pages/trusteeship/trusteeship",
-    "pages/forest/forest"
+    "pages/forest/forest",
+    "pages/HouseholdRegister/HouseholdRegister"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

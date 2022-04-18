@@ -1,0 +1,60 @@
+<view class="page">
+  <!--navbar-->
+  <view class="navbar">
+    <image class="back" src="{{back_arrow}}" bindtap="backIndex"></image>
+    <text class="hint_1">智能家居</text>
+  </view>
+
+  <!-- 智能安防 -->
+  <view class="list">
+    <view class="smarthome">
+      <image class="image_home" src="{{smarthome_home}}"></image>
+      <text class="hint_2">智能安防</text>
+      <image class="right_arrow" src="{{right_arrow}}" wx:if="{{isSelect1==false}}" bindtap="Select1"></image>
+      <image class="right_arrow" src="{{down_arrow}}" wx:if="{{isSelect1==true}}" bindtap="Select1"></image>
+      <view class="smarthome_details" wx:if="{{isSelect1==true}}">
+        <view class="box" wx:for="{{smarthome_list}}">
+          <image class="box_image" src="{{smarthome_list[index].image}}"></image>
+          <text class="hint_3">{{smarthome_list[index].name}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 门禁卡 -->
+  <view class="list" style="{{isSelect1?'top:'+150+'rpx;':'top:'+0+'rpx;'}}">
+    <view class="smarthome">
+      <image class="image_home" src="{{card_key}}"></image>
+      <text class="hint_2">门禁卡</text>
+      <image class="right_arrow" src="{{right_arrow}}" wx:if="{{isSelect2==false}}" ></image>
+      <image class="right_arrow" src="{{down_arrow}}" wx:if="{{isSelect2==true}}"></image>
+    </view>
+  </view>
+  <!-- 智能停车 -->
+  <view class="list">
+    <view class="smarthome" style="{{isSelect1?'top:'+150+'rpx;':'top:'+0+'rpx;'}}">
+      <image class="image_home" src="{{smarthome_car}}"></image>
+      <text class="hint_2">智能停车</text>
+      <image class="right_arrow" src="{{right_arrow}}" wx:if="{{isSelect3==false}}" ></image>
+      <image class="right_arrow" src="{{down_arrow}}" wx:if="{{isSelect3==true}}"></image>
+    </view>
+  </view>
+  <!-- 二维码 -->
+  <view class="list">
+    <view class="smarthome" style="{{isSelect1?'top:'+150+'rpx;':'top:'+0+'rpx;'}}">
+      <image class="image_home" src="{{QR_code}}"></image>
+      <text class="hint_2">生成当日访客通行二维码</text>
+      <image class="right_arrow" src="{{right_arrow}}" wx:if="{{isSelect4==false}}" ></image>
+      <image class="right_arrow" src="{{down_arrow}}" wx:if="{{isSelect4==true}}"></image>
+    </view>
+  </view>
+  <!-- 更新面部特征 -->
+  <view class="list">
+    <view class="smarthome" style="{{isSelect1?'top:'+150+'rpx;':'top:'+0+'rpx;'}}">
+      <image class="image_home" src="{{face}}"></image>
+      <text class="hint_2">更新我的面部特征</text>
+      <image class="right_arrow" src="{{right_arrow}}" wx:if="{{isSelect5==false}}" ></image>
+      <image class="right_arrow" src="{{down_arrow}}" wx:if="{{isSelect5==true}}"></image>
+    </view>
+  </view>
+</view>
