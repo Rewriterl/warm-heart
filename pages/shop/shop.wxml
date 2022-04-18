@@ -1,3 +1,231 @@
 <ui-sys tabbar>
+  <ui-navbar back="{{false}}" bg="ui-BG-Main main-yellow" op isSlot>
+    <view class="header-container">
+      <view class="header-above">
+        <view class="above-left">
+          <text class="title">社区购物</text>
+        </view>
+
+        <view class="above-right">
+
+          <view>
+            <text class="text-18 text-white _icon-check-round-o"></text>
+            <text class="t2">优质好货</text>
+          </view>
+
+          <view>
+            <text class="text-18 text-white _icon-check-round-o"></text>
+            <text class="t2">专属物流</text>
+
+          </view>
+
+        </view>
+      </view>
+
+      <view class="below-container">
+        <view class="searchbar radius-lg">
+          <ui-form-group ui="shb-height text-18" icon="_icon-search" isAction>
+            <ui-input-box>
+              <input class="ui-input-wrapper" placeholder="面粉 新人专享9元" placeholder-style="font-size:15px;line-height: 15px;" />
+            </ui-input-box>
+            <view slot="action">
+              <button class="ui-btn sm shb-height">
+                <test style="font-size:15px;line-height: 15px;color:#ff8a41;">搜索</test>
+              </button>
+            </view>
+          </ui-form-group>
+        </view>
+      </view>
+
+
+    </view>
+  </ui-navbar>
+  <!-- navbar end -->
+
+  <view class="block1">
+
+
+    <view class="rect-size">
+      <view class="flex-center round" style="background-color:#bee570;  width:60px; height:60px;">
+        <ui-img ui="text-center" src="../../../../asserts/sp-lemon.svg" width="25px" height="25px"></ui-img>
+      </view>
+      <view class="flex-center" style="margin:5px 0px"> <text class="text-black">水果蔬菜</text> </view>
+    </view>
+    <view class="rect-size">
+      <view class="flex-center round " style="background-color:#f8ceb4; width:60px; height:60px;">
+        <ui-img ui="text-center" src="../../../../asserts/sp-circle.svg" width="25px" height="25px"></ui-img>
+      </view>
+      <view class="flex-center"  style="margin:5px 0px"> <text  class="text-black">肉禽蛋品</text> </view>
+    </view>
+    <view class="rect-size">
+      <view class="flex-center  round" style="background-color:#50adff; width:60px; height:60px;">
+        <ui-img ui="text-center" src="../../../../asserts/sp-water.svg" width="25px" height="25px"></ui-img>
+      </view>
+      <view class="flex-center"  style="margin:5px 0px"> <text  class="text-black">海鲜水产</text> </view>
+    </view>
+    <view class="rect-size">
+      <view class="flex-center round" style="background-color:#9dbae1; width:60px; height:60px;">
+        <ui-img ui="text-center" src="../../../../asserts/sp-pizza.svg" width="25px" height="25px"></ui-img>
+      </view>
+      <view class="flex-center"  style="margin:5px 0px"> <text  class="text-black">速食冷冻</text> </view>
+    </view>
+    <view class="rect-size">
+      <view class="flex-center  round" style="background-color:#ffe38f; width:60px; height:60px;">
+        <ui-img ui="text-center" src="../../../../asserts/sp-beer.svg" width="25px" height="25px"></ui-img>
+      </view>
+      <view class="flex-center"  style="margin:5px 0px"> <text  class="text-black">粮油食品</text> </view>
+    </view>
+
+
+  </view>
+
+  <!-- block1 end -->
+
+
+
+  <view class="m-myblock bg-white">
+    <view class="l2-title">
+      <span><text class="text-18 text-black">超划算</text></span>
+      <span><text class="text-dark-6 ">更多 > </text></span>
+    </view>
+
+    <view class="myflex-between">
+      <view style="width:120px;" class="p-1">
+
+        <view>
+          <ui-img width="110px" height="110px" src="../../../../asserts/sp-apple.jpg"></ui-img>
+        </view>
+
+        <view class="flex-center p-2 text-black text-bold"> <text>新疆小苹果</text></view>
+
+        <view class="myflex-around">
+          <span>
+            <text class="text-price text-16  text-bold text-red"> 20.9/箱 </text>
+          </span>
+          <span class="flex-center round bg-blue" style="width:25px; height:25px;">
+            <text class="cicon-shopping-cart-o"></text>
+          </span>
+        </view>
+
+      </view>
+
+      <view style="width:120px;" class="p-1">
+
+        <view>
+          <ui-img width="110px" height="110px" src="../../../../asserts/sp-xia.jpg"></ui-img>
+        </view>
+        <view class="flex-center p-2 text-black text-bold"> <text>武汉小龙虾</text> </view>
+        <view class="myflex-around">
+          <span>
+            <text class="text-price  text-16  text-bold text-red"> 20.9/箱 </text>
+          </span>
+          <span class="flex-center round bg-blue" style="width:25px; height:25px;">
+            <text class="cicon-shopping-cart-o"></text>
+          </span>
+        </view>
+
+      </view>
+
+      <view style="width:120px;" class="p-1">
+
+        <view>
+          <ui-img width="110px" height="110px" src="../../../../asserts/sp-apple.jpg"></ui-img>
+        </view>
+
+        <view class="flex-center p-2 text-black text-bold"> <text>北京大苹果</text> </view>
+
+        <view class="myflex-around">
+          <span>
+            <text class="text-price  text-16  text-bold text-red"> 20.9/箱 </text>
+          </span>
+          <span class="flex-center round bg-blue" style="width:25px; height:25px;">
+            <text class="cicon-shopping-cart-o"></text>
+          </span>
+        </view>
+
+      </view>
+
+    </view>
+
+  </view>
+
+  <!-- block2 end -->
+
+
+  <view class="m-myblock bg-white myflex-between">
+    <view style="width:50%">
+      <view class="p-my-title"><text class="text-black text-18">吃好点</text></view>
+
+      <view class="p-my-title"><text class="text-dark-6">美国大樱桃尝鲜</text> </view>
+
+      <view class="myflex-around p-my-title">
+        <ui-img width="65px" height="50px" src="../../../../asserts/sp-apple.jpg"></ui-img>
+        <ui-img width="65px" height="50px" src="../../../../asserts/sp-he.jpg"></ui-img>
+
+      </view>
+
+
+    </view>
+
+
+
+    <view style="width:50%">
+      <view class="p-my-title"><text class="text-black text-18">产地量贩</text></view>
+
+      <view class="p-my-title"><text class="text-dark-6">凤梨19.9元/箱</text> </view>
+
+      <view class="myflex-around p-my-title">
+        <ui-img width="65px" height="50px" src="../../../../asserts/sp-apple.jpg"></ui-img>
+        <ui-img width="65px" height="50px" src="../../../../asserts/sp-he.jpg"></ui-img>
+
+      </view>
+
+    </view>
+
+
+
+
+  </view>
+
+<!-- block3 end -->
+
+<view class="m-myblock bg-white flex">
+
+  <view class="p-3">
+    <ui-img width="100px" height="100px" src="../../../../asserts/sp-he.jpg"></ui-img>
+  </view>
+
+  <view style="width:100%; padding:5px 15px" class="myflex-ybetween">
+
+      <view>  
+        <view><text class="text-16 text-black"> 海南小海鲜</text></view>
+
+        <view style="margin:5px 0px">
+          <span class="bg-gray-e round" style="padding:0px 5px"> <text class="text-14 text-red">特价</text> </span>
+          <span class="bg-gray-e round" style="padding:0px 5px;margin:0px 15px"><text class="text-14 text-dark-6">24H发货</text></span>
+        </view>
+      </view>   
+
+      <view class="myflex-between" >
+        <view>
+          <view style="margin:5px 0px"><text class="text-price text-16 text-red"> 20.9/箱</text></view>
+          <view><text class="text-dark-6"> 888人已买过</text></view>
+        </view>
+
+        <view>
+          <span class="flex-center round bg-blue" style="width:45px; height:45px;">
+            <text class="text-40 cicon-shopping-cart-o"></text>
+          </span>
+        </view>
+      </view>
+
+  </view>
+
+</view>
+
+
+
+
+
 
 </ui-sys>
