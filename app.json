@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/position/position",
     "pages/index/index",
+    "pages/position/position",
     "pages/trusteeship/trusteeship",
     "pages/nurse/nurse",
     "pages/message/message",
@@ -9,7 +9,7 @@
     "pages/home/home",
     "pages/moment/moment",
     "pages/nuclein/nuclein",
-    "pages/HouseholdRegister/HouseholdRegister",
+    "pages/householdRegister/HouseholdRegister",
     "pages/forest/forest"
   ],
   "window": {

@@ -32,7 +32,7 @@
                     height="80rpx"/>
             <text class="menu-logo-text">位置</text>
         </view>
-        <view class="ui-item">
+        <view class="ui-item" bind:tap="goHouseholdRegister">
             <ui-img ui="text-center" src="../../../../asserts/ze-coupon-o.svg" width="40px"
                     height="80rpx"/>
             <text class="menu-logo-text">家庭户口本</text>

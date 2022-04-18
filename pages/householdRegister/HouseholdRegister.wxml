@@ -1,7 +1,7 @@
 <view class="page">
   <!--navbar-->
   <view class="navbar">
-    <image class="back" src="{{back_arrow}}" bindtap="backIndex"></image>
+    <image class="back" src="{{back_arrow}}" bindtap="redictHome"></image>
     <text class="hint_1">家庭户口本</text>
   </view>
   <!-- 家庭成员列表 -->
@@ -38,7 +38,7 @@
         <image class="image_3" src="{{info_manager}}"></image>
         <text class="hint_6">身份管理</text>
       </view>
-      
+
       <view class="underline"></view>
     </view>
   </view>

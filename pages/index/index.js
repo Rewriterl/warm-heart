@@ -135,6 +135,14 @@ Page({
             url: url
         });
     },
+
+    goHouseholdRegister: function (e) {
+        var id = e.currentTarget.dataset.id,
+            url = '/pages/householdRegister/HouseholdRegister';
+        wx.navigateTo({
+            url: url
+        });
+    },
     // 广告相关配置
     // adbinderror: function (e) {
     //     var self = this;
