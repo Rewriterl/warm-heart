@@ -1,5 +1,47 @@
-.back {
+.bg-yellow {
+    background-color: #FF8A41;
 }
 
-.navbar {
+.position_header {
+    position: fixed;
+    height: 220rpx;
+    width: 100%;
+}
+
+.back {
+    position: fixed;
+    z-index: 1000;
+    left: 6rpx;
+    top: 6rpx;
+}
+
+.header-arrow {
+    position: fixed;
+    left: 28rpx;
+    top: 60rpx;
+}
+
+.position-search {
+    position: fixed;
+    top: 110rpx;
+    width: 100%;
+}
+
+.position-tab-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30rpx;
+    height: 80rpx;
+    width: 100%;
+}
+
+.position-tab {
+    color: #dadad7;
+    font-size: 40rpx;
+}
+
+.active {
+    color: #fff;
 }

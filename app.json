@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/position/position",
     "pages/index/index",
     "pages/trusteeship/trusteeship",
     "pages/nurse/nurse",
@@ -9,7 +10,6 @@
     "pages/moment/moment",
     "pages/nuclein/nuclein",
     "pages/HouseholdRegister/HouseholdRegister",
-    "pages/position/position",
     "pages/forest/forest"
   ],
   "window": {

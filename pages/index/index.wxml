@@ -55,7 +55,7 @@
         <view class="ui-item">
             <ui-img ui="text-center" src="../../../../asserts/ze-hotel-o.svg" width="40px"
                     height="80rpx"/>
-            <text class="menu-logo-text">物流综合</text>
+            <text class="menu-logo-text">物业综合</text>
         </view>
         <view class="ui-item" bind:tap="goForest">
             <ui-img ui="text-center" src="../../../../asserts/iconPark-leaves.svg" width="40px"

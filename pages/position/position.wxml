@@ -1,5 +1,18 @@
-<ui-sys>
-    <view class="navbar">
-        <image bind:tap="redictHome" class="back" src="{{back_arrow}}"></image>
+<ui-sys img="../../../../asserts/map.png">
+    <view class="position_header bg-yellow">
+        <ui-img class="header-arrow" style="z-index:1" src="{{back_arrow}}" width="24px"
+                height="24px" bind:tap="redictHome"></ui-img>
+        <view class="position-search">
+            <ui-search-bar isRight barBg="bg-yellow" placeholder="三兄弟数码科技">
+                <text style="color:#fff">搜索</text>
+            </ui-search-bar>
+        </view>
     </view>
+    <ui-fixed bottom>
+        <view class="position-tab-wrapper bg-yellow">
+            <text wx:for="{{tab_list}}" style="{{'color:'+tab_list[index].active}}"
+                  class="position-tab" wx:key="index"
+                  bind:tap="changeActive">{{tab_list[index].tab_name}}</text>
+        </view>
+    </ui-fixed>
 </ui-sys>
