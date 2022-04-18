@@ -119,6 +119,22 @@ Page({
             url: url
         });
     },
+
+    goPosition: function (e) {
+        var id = e.currentTarget.dataset.id,
+            url = '/pages/position/position';
+        wx.navigateTo({
+            url: url
+        });
+    },
+
+    goTrusteeship: function (e) {
+        var id = e.currentTarget.dataset.id,
+            url = '/pages/trusteeship/trusteeship';
+        wx.navigateTo({
+            url: url
+        });
+    },
     // 广告相关配置
     // adbinderror: function (e) {
     //     var self = this;

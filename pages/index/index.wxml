@@ -27,7 +27,7 @@
                     height="80rpx"/>
             <text class="menu-logo-text">社区信息</text>
         </view>
-        <view class="ui-item">
+        <view class="ui-item" bind:tap="goPosition">
             <ui-img ui="text-center" src="../../../../asserts/riFill-gps-fill.svg" width="40px"
                     height="80rpx"/>
             <text class="menu-logo-text">位置</text>
@@ -42,7 +42,7 @@
                     height="80rpx"/>
             <text class="menu-logo-text">育儿专区</text>
         </view>
-        <view class="ui-item">
+        <view class="ui-item" bind:tap="goTrusteeship">
             <ui-img ui="text-center" src="../../../../asserts/ze-shop-collect-o.svg" width="40px"
                     height="80rpx"/>
             <text class="menu-logo-text">托管服务</text>
