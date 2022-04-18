@@ -2,79 +2,23 @@
 
     <ui-navbar back="{{false}}" bg="ui-BG-Main main-yellow" op isSlot>
         <view class="header-logo-wrapper">
-            <view class="logo-wrapper-list">
-                <ui-img ui="text-center" src="../../../../asserts/arcoDesign-qrcode.svg" width="100rpx"
+            <view class="logo-wrapper-list" wx:for="{{logoWrapperList}}" wx:key="index" data-index="{{index}}"
+                  bind:tap="logoWrapperListSwitch">
+                <ui-img ui="text-center" src="{{logoWrapperList[index].imgUrl}}" width="100rpx"
                         height="100rpx"/>
-                <text class="qr-text">健康码</text>
-            </view>
-            <view class="logo-wrapper-list">
-                <ui-img ui="text-center" src="../../../../asserts/ze-wechat.svg" width="100rpx" height="100rpx"/>
-                <text class="qr-text">行程码</text>
-            </view>
-            <view class="logo-wrapper-list" bindtap="toNuclein">
-                <ui-img ui="text-center" src="../../../../asserts/ze-column.svg" width="50px" height="50px" ></ui-img>
-                <text class="qr-text">核酸预约</text>
-            </view>
-            <view class="logo-wrapper-list">
-                <ui-img ui="text-center" src="../../../../asserts/iconPark-smart-optimization.svg" width="100rpx" height="100rpx"/>
-                <text class="qr-text">智能家居</text>
+                <text class="qr-text">{{logoWrapperList[index].iconName}}</text>
             </view>
         </view>
     </ui-navbar>
     <view class="ui-grid ui-cols-5 ui-cols-lg-6">
-        <view class="ui-item">
-            <ui-img ui="text-center" src="../../../../asserts/ze-wap-home.svg" width="80rpx"
-                    height="80rpx"/>
-            <text class="menu-logo-text">社区信息</text>
-        </view>
-        <view class="ui-item" bind:tap="goPosition">
-            <ui-img ui="text-center" src="../../../../asserts/riFill-gps-fill.svg" width="40px"
-                    height="80rpx"/>
-            <text class="menu-logo-text">位置</text>
-        </view>
-        <view class="ui-item" bind:tap="goHouseholdRegister">
-            <ui-img ui="text-center" src="../../../../asserts/ze-coupon-o.svg" width="40px"
-                    height="80rpx"/>
-            <text class="menu-logo-text">家庭户口本</text>
-        </view>
-        <view class="ui-item">
-            <ui-img ui="text-center" src="../../../../asserts/iconPark-baby.svg" width="40px"
-                    height="80rpx"/>
-            <text class="menu-logo-text">育儿专区</text>
-        </view>
-        <view class="ui-item" bind:tap="goTrusteeship">
-            <ui-img ui="text-center" src="../../../../asserts/ze-shop-collect-o.svg" width="40px"
-                    height="80rpx"/>
-            <text class="menu-logo-text">托管服务</text>
-        </view>
-        <view class="ui-item" bind:tap="goNurse">
-            <ui-img ui="text-center" src="../../../../asserts/ze-youzan-shield.svg" width="40px"
-                    height="80rpx"/>
-            <text class="menu-logo-text">护工服务</text>
-        </view>
-        <view class="ui-item">
-            <ui-img ui="text-center" src="../../../../asserts/ze-hotel-o.svg" width="40px"
-                    height="80rpx"/>
-            <text class="menu-logo-text">物业综合</text>
-        </view>
-        <view class="ui-item" bind:tap="goForest">
-            <ui-img ui="text-center" src="../../../../asserts/iconPark-leaves.svg" width="40px"
-                    height="80rpx"/>
-            <text class="menu-logo-text">社区森林</text>
-        </view>
-        <view class="ui-item">
-            <ui-img ui="text-center" src="../../../../asserts/ze-balance-pay.svg" width="40px"
-                    height="80rpx"/>
-            <text class="menu-logo-text">我的钱包</text>
-        </view>
-        <view class="ui-item">
-            <ui-img ui="text-center" src="../../../../asserts/ze-weapp-nav.svg" width="40px"
-                    height="80rpx"/>
-            <text class="menu-logo-text">更多</text>
+        <view class="ui-item" wx:for="{{menuList}}" wx:key="index"
+              bind:tap="switchMenuList"
+              data-index="{{index}}">
+            <ui-img ui="text-center" width="80rpx" height="80rpx" src="{{menuList[index].mImgUrl}}"/>
+            <text class="menu-logo-text">{{menuList[index].iconName}}</text>
         </view>
     </view>
-    <ui-img ui="radius border" src="../../../../asserts/swiper-1.png" local current="0"/>
+    <ui-img ui="radius border" src="{{swiperList[0].img}}" local current="0"/>
     <esInfo/>
-
 </ui-sys>
 

@@ -6,7 +6,7 @@
   </view>
   <!-- 家庭成员列表 -->
   <view class="family_list" style="{{'height:'+family_list.length*200+'rpx'}}">
-    <view class="member_info" wx:for="{{family_list}}">
+    <view class="member_info" wx:for="{{family_list}}" wx:key="index">
       <image class="info_image" src="{{family_list[index].member_image}}"></image>
       <text class="info_name">{{family_list[index].member_name}}</text>
       <text class="info_master" wx:if="{{family_list[index].isMaster}}">(户主)</text>
