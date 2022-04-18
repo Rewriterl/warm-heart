@@ -1,13 +1,14 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/parenting/parenting",
+    "pages/moment/moment",
     "pages/position/position",
     "pages/trusteeship/trusteeship",
     "pages/nurse/nurse",
     "pages/message/message",
     "pages/shop/shop",
     "pages/home/home",
-    "pages/moment/moment",
     "pages/nuclein/nuclein",
     "pages/householdRegister/HouseholdRegister",
     "pages/forest/forest"
