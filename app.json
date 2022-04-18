@@ -1,13 +1,15 @@
 {
   "pages": [
     "pages/HouseholdRegister/HouseholdRegister",
+    "pages/nurse/nurse",
     "pages/index/index",
     "pages/message/message",
     "pages/shop/shop",
     "pages/home/home",
     "pages/moment/moment",
     "pages/nuclein/nuclein",
-    "pages/trusteeship/trusteeship"
+    "pages/trusteeship/trusteeship",
+    "pages/forest/forest"
   ],
   "window": {
     "backgroundTextStyle": "light",
