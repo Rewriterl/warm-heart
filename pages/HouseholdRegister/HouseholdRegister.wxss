@@ -33,3 +33,162 @@ page{
   font-size: 21px;
   font-weight: bold;
 }
+
+.family_list{
+  position: relative;
+  width: 100%;
+  top: 10%;
+}
+
+.member_info{
+  position: relative;
+  width: 100%;
+  height: 180rpx;
+}
+
+.info_image{
+  position: absolute;
+  width: 100rpx;
+  height: 100rpx;
+  top: 20rpx;
+  left: 10rpx;
+  border-radius: 100rpx;
+}
+
+.info_name{
+  position: absolute;
+  width: 100rpx;
+  height: 40rpx;
+  top: 20rpx;
+  left: 130rpx;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.info_master{
+  position: absolute;
+  width: 100rpx;
+  height: 40rpx;
+  top: 20rpx;
+  left: 200rpx;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.info_number{
+  position: absolute;
+  width: 380rpx;
+  height: 40rpx;
+  top: 70rpx;
+  left: 130rpx;
+  font-size: 13px;
+  color: #919191;
+}
+
+.hint_2{
+  position: absolute;
+  width: 250rpx;
+  height: 40rpx;
+  left: 130rpx;
+  top: 110rpx;
+  font-size: 13px;
+  color: #FF8A41;
+  border-radius: 20rpx;
+  background-color: #e8e8e8;
+}
+
+.hint_3{
+  position: absolute;
+  top: 2rpx;
+  left: 20rpx;
+}
+
+.right_arrow{
+  position: absolute;
+  width: 30rpx;
+  height: 30rpx;
+  top: 6rpx;
+  right: 10rpx;
+}
+
+.role_manager{
+  position: absolute;
+  width: 60rpx;
+  height: 50rpx;
+  top: 40rpx;
+  right: 200rpx;
+}
+
+.image_1{
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.hint_4{
+  position: absolute;
+  top: 60rpx;
+  left: -20rpx;
+  font-size: 10px;
+  font-weight: bold;
+  color: #919191;
+}
+
+.fingerprint{
+  position: absolute;
+  width: 60rpx;
+  height: 50rpx;
+  top: 40rpx;
+  right: 110rpx;
+}
+
+
+.image_2{
+  position: absolute;
+  top: -5rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.hint_5{
+  position: absolute;
+  width: 80rpx;
+  top: 60rpx;
+  left: -10rpx;
+  font-size: 10px;
+  font-weight: bold;
+  color: #919191;
+}
+
+.info_manager{
+  position: absolute;
+  width: 60rpx;
+  height: 50rpx;
+  top: 40rpx;
+  right: 20rpx;
+}
+
+.image_3{
+  position: absolute;
+  top: -5rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.hint_6{
+  position: absolute;
+  width: 80rpx;
+  top: 60rpx;
+  left: -10rpx;
+  font-size: 10px;
+  font-weight: bold;
+  color: #919191;
+}
+
+.underline{
+  position: absolute;
+  width: 100%;
+  height: 3rpx;
+  bottom: 10rpx;
+  background-color: rgba(119,119,119,0.25);
+}
