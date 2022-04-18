@@ -1,0 +1,31 @@
+<view class="page">
+  <!--navbar-->
+  <view class="navbar">
+    <image class="back" src="{{back_arrow}}" bindtap="backIndex"></image>
+    <text class="hint_1">托管服务</text>
+  </view>
+
+  <view class="pet_list" style="{{'height:'+pet_list.length*260+'rpx'}}">
+    <view class="pet_info" wx:for="{{pet_list}}">
+      <image class="pet_image" src="{{pet_list[index].pet_image}}"></image>
+      <text class="pet_name">{{pet_list[index].pet_name}}</text>
+      <text class="pet_address">{{pet_list[index].pet_address}}</text>
+      <text class="pet_status">托管状态</text>
+      <switch class="switch" color="#FF8A41" checked="{{pet_list[index].pet_status}}"></switch>
+      <view class="underline"></view>
+    </view>
+  </view>
+  <view class="trusteeship">
+    <text class="hint_2">托管服务预约</text>
+    <image class="details" src="{{right_arrow}}"></image>
+  </view>
+  <view class="trusteeship">
+    <text class="hint_2">我的账单</text>
+    <view class="nu_order">{{order.length}}</view>
+    <image class="details" src="{{right_arrow}}"></image>
+  </view>
+  <view class="trusteeship">
+    <text class="hint_2">服务投诉与反馈</text>
+    <image class="details" src="{{right_arrow}}"></image>
+  </view>
+</view>
