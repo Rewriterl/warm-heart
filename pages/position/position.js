@@ -1,6 +1,8 @@
 Page({
     data: {
         back_arrow: '../../../../asserts/ze-arrow-left-copy.svg',
+        location_tag: '../../../../asserts/if-pin.svg',
+        fingerprint: '../../../../asserts/riLine-fingerprint-line.svg',
         tab_list: [
             {
                 tab_name: '首页',
@@ -17,6 +19,7 @@ Page({
         ]
     },
     changeActive: function (e) {
+        console.log(e)
         var index = e.currentTarget.dataset.index;
         var tab_list = this.data.tab_list;
         for (var i = 0; i < tab_list.length; i++) {

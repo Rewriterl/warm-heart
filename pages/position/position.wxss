@@ -45,3 +45,62 @@
 .active {
     color: #fff;
 }
+
+.park {
+    position: absolute;
+}
+
+.park-1 {
+    left: 270rpx;
+    top: 260rpx;
+}
+
+.park-2 {
+    left: 490rpx;
+    top: 590rpx;
+}
+
+.park-3 {
+    left: 158px;
+    top: 430px;
+}
+
+.park-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 252rpx;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 100);
+    padding: 0 5rpx;
+}
+
+.park-info-text {
+    color: rgba(255, 138, 65, 100);
+    font-size: 14px;
+    margin-left: -24rpx;
+}
+
+.fingerprint {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 248rpx;
+    top: 580rpx;
+    width: 286rpx;
+    height: 284rpx;
+    line-height: 20px;
+    opacity: 0.7;
+    border-radius: 15px;
+    background-color: rgba(164, 156, 156, 100);
+    text-align: center;
+}
+
+.fingerprint-text {
+    margin-top: 18rpx;
+    color: rgba(0, 0, 0, 1);
+    font-size: 28rpx;
+}

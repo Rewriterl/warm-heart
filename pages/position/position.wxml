@@ -1,3 +1,4 @@
+<!-- TODO: 背景图片在高分辨率下显示补全，考虑到之后会启用真正的地图api，所以此处先搁置-->
 <ui-sys img="../../../../asserts/map.png">
     <view class="position_header bg-yellow">
         <ui-img class="header-arrow" style="z-index:1" src="{{back_arrow}}" width="24px"
@@ -8,10 +9,43 @@
             </ui-search-bar>
         </view>
     </view>
+    <view wx:if="{{tab_list[1].active.length!==0}}">
+        <view class="park park-1">
+            <view class="park-info">
+                <view>26个停车点</view>
+                <text class="park-info-text">查看详情</text>
+            </view>
+            <ui-img style="z-index:1" src="{{location_tag}}" width="66rpx"
+                    height="66rpx" bind:tap="redictHome"></ui-img>
+        </view>
+        <view class="park park-2">
+            <view class="park-info" style="position: fixed;right: 246rpx;top: 530rpx;">
+                <view>14个停车点</view>
+                <text class="park-info-text">查看详情</text>
+            </view>
+            <ui-img style="z-index:1" src="{{location_tag}}" width="66rpx"
+                    height="66rpx" bind:tap="redictHome"></ui-img>
+        </view>
+        <view class="park park-3">
+            <view class="park-info">
+                <view>11个停车点</view>
+                <text class="park-info-text">查看详情</text>
+            </view>
+            <ui-img style="z-index:1" src="{{location_tag}}" width="66rpx"
+                    height="66rpx" bind:tap="redictHome"></ui-img>
+        </view>
+    </view>
+    <view wx:if="{{tab_list[2].active.length!==0}}">
+        <view class="fingerprint">
+            <ui-img class="" style="z-index:1" src="{{fingerprint}}" width="144rpx"
+                    height="144rpx"></ui-img>
+            <text class="fingerprint-text">请录入指纹</text>
+        </view>
+    </view>
     <ui-fixed bottom>
         <view class="position-tab-wrapper bg-yellow">
             <text wx:for="{{tab_list}}" style="{{'color:'+tab_list[index].active}}"
-                  class="position-tab" wx:key="index"
+                  class="position-tab" wx:key="index" data-index="{{index}}"
                   bind:tap="changeActive">{{tab_list[index].tab_name}}</text>
         </view>
     </ui-fixed>
