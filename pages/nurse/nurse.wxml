@@ -1,8 +1,10 @@
 <ui-sys bg="#FBF7F7">
-    <view class="header-bg"></view>
-    <ui-img class="header-arrow" style="z-index:1" src="../../../../asserts/ze-arrow-left-copy.svg" width="24px"
-            height="24px" bind:tap="redictHome"></ui-img>
+    <view class="nurse-header">
+        <ui-img class="header-arrow" style="z-index:1" src="../../../../asserts/ze-arrow-left-copy.svg" width="24px"
+                height="24px" bind:tap="redictHome"></ui-img>
+    </view>
     <view class="header-bg-s"></view>
+    <view class="nurse-block"></view>
     <view class="user-info-wrapper">
         <view class="avatar-wrapper">
             <ui-avatar ui="round sl" src="../../../../asserts/avatar.png"/>
@@ -21,62 +23,19 @@
         </view>
     </view>
     <view class="menu-list">
-        <view>
-            <ui-img ui="m-l-6" src="../../../../asserts/ze-clock.svg" width="80rpx"
+        <view wx:for="{{menuListF}}" wx:key="index">
+            <ui-img ui="m-l-6" src="{{menuListF[index].imgUrl}}" width="80rpx"
                     height="80rpx"/>
-            <text>快速预约</text>
-        </view>
-        <view>
-            <ui-img ui="m-l-6" src="../../../../asserts/ze-description.svg" width="80rpx"
-                    height="80rpx"/>
-            <text>健康检测</text>
-        </view>
-        <view>
-            <ui-img ui="m-l-6" src="../../../../asserts/ze-completed.svg" width="80rpx"
-                    height="80rpx"/>
-            <text>定期检查</text>
-        </view>
-        <view>
-            <ui-img ui="m-l-6" src="../../../../asserts/ze-wechat-red.svg" width="80rpx"
-                    height="80rpx"/>
-            <text>账单缴费</text>
+            <text>{{menuListF[index].iconName}}</text>
         </view>
     </view>
     <view class="menu-list">
-        <view>
-            <view class="menu-list-t" style="background-color: #BEE570;">
-                <ui-img src="../../../../asserts/far-fa-lemon.svg" width="60rpx"
+        <view wx:for="{{menuListS}}" wx:key="index">
+            <view class="menu-list-t" style="background-color:{{menuListS[index].color}};">
+                <ui-img src="{{menuListS[index].imgUrl}}" width="60rpx"
                         height="60rpx"/>
             </view>
-            <text>快速预约</text>
-        </view>
-        <view>
-            <view class="menu-list-t" style="background-color: #F8CEB4;">
-                <ui-img src="../../../../asserts/ze-user-o.svg" width="60rpx"
-                        height="60rpx"/>
-            </view>
-            <text>健康检测</text>
-        </view>
-        <view>
-            <view class="menu-list-t" style="background-color: #9DBAE1">
-                <ui-img src="../../../../asserts/haFill-33-award.svg" width="60rpx"
-                        height="60rpx"/>
-            </view>
-            <text>定期检查</text>
-        </view>
-        <view>
-            <view class="menu-list-t" style="background-color: #FFE38F">
-                <ui-img src="../../../../asserts/ze-flower-o.svg" width="60rpx"
-                        height="60rpx"/>
-            </view>
-            <text>账单缴费</text>
-        </view>
-        <view>
-            <view class="menu-list-t" style="background-color: #B4DDFF">
-                <ui-img src="../../../../asserts/ze-warning.svg" width="60rpx"
-                        height="60rpx"/>
-            </view>
-            <text>账单缴费</text>
+            <text>{{menuListS[index].iconName}}</text>
         </view>
     </view>
     <view style="margin-top:20rpx"></view>

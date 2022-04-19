@@ -1,0 +1,23 @@
+.flow-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flow-left{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flow-right{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

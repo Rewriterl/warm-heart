@@ -1,0 +1,21 @@
+<ui-sys>
+    <view class="parenting-header">
+        <ui-img class="header-arrow" style="z-index:1" src="../../../../asserts/ze-arrow-left-copy.svg" width="24px"
+                height="24px" bind:tap="redictHome"></ui-img>
+        <view class="parenting-search">
+            <ui-search-bar isRight barBg="bg-yellow" placeholder="防拐卖教育短片">
+                <text style="color:#fff">搜索</text>
+            </ui-search-bar>
+        </view>
+    </view>
+    <view class="menu-block"></view>
+    <view class="menu-list">
+        <text class="menu-all">全部</text>
+        <text class="menu-warn">防拐卖</text>
+        <text class="menu-item">视频</text>
+        <text class="menu-item">视频</text>
+        <text class="menu-item">专栏</text>
+    </view>
+    <view style="margin-top:20rpx"></view>
+    <flowInfo model:dataList="{{parentingList}}"/>
+</ui-sys>

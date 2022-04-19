@@ -2,17 +2,19 @@
   "pages": [
     "pages/trusteeship/trusteeship",
     "pages/Smarthome/Smarthome",
-    "pages/nurse/nurse",
     "pages/index/index",
+    "pages/parenting/parenting",
+    "pages/moment/moment",
+    "pages/position/position",
+    "pages/trusteeship/trusteeship",
+    "pages/nurse/nurse",
     "pages/message/message",
     "pages/shop/shop",
     "pages/home/home",
-    "pages/moment/moment",
     "pages/nuclein/nuclein",
     
     "pages/forest/forest",
     "pages/HouseholdRegister/HouseholdRegister"
-    
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -6,9 +6,13 @@
     height: 42rpx;
 }
 
-.header-bg{
-    background-color: #FF8A41;
+.nurse-header{
+    position: fixed;
+    top: 0;
     height: 150rpx;
+    width: 100% ;
+    z-index: 1001;
+    background-color: #FF8A41;
 }
 
 .header-bg-s{
@@ -77,4 +81,8 @@
 
 .m-l-6{
     margin-left: 12rpx;
+}
+
+.nurse-block{
+    height: 150rpx;
 }
