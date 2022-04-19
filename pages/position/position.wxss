@@ -88,10 +88,12 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    left: 248rpx;
     top: 580rpx;
     width: 286rpx;
     height: 284rpx;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     line-height: 20px;
     opacity: 0.7;
     border-radius: 15px;

@@ -1,4 +1,5 @@
-<ui-sys img="{{basePath}}forest.png">
+<ui-sys>
+    <image class="bg-image" mode="widthFix" src="{{basePath}}forest.png"></image>
     <ui-img class="header-arrow" src="{{basePath}}ze-arrow-left-copy.svg" width="24px"
             height="24px" bind:tap="redictHome"></ui-img>
     <view class="ui-grid ui-cols-4 ui-cols-lg-6 p-3 m-t">
@@ -23,8 +24,10 @@
             <text class="logo-intro">森林</text>
         </view>
     </view>
-    <view class="forest-footer">
-        <ui-img class="cart-logo" src="{{basePath}}riLine-shopping-cart-2-line.svg" width="24px"
-                height="24px"></ui-img>前往积分商城
-    </view>
+    <ui-fixed bottom>
+        <view class="forest-footer">
+            <ui-img class="cart-logo" src="{{basePath}}riLine-shopping-cart-2-line.svg" width="24px"
+                    height="24px"></ui-img>前往积分商城
+        </view>
+    </ui-fixed>
 </ui-sys>
