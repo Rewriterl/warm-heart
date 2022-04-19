@@ -19,7 +19,7 @@
             </view>
             <view class="home-menu-item">
                 <ui-img src="{{basePath}}ze-edit.svg" width="104rpx" height="100rpx"/>
-                <text class="menu-text">修改家庭信息</text>
+                <text class="menu-text" style="font-size:18rpx">修改家庭信息</text>
             </view>
             <view class="home-menu-item">
                 <ui-img src="{{basePath}}iconPark-devices.svg" width="104rpx" height="100rpx"/>
@@ -46,7 +46,7 @@
             <text class="menu-sub-text">物业缴费</text>
         </view>
     </view>
-    <view style="height:10rpx"></view>
+<!--    <view style="height:10rpx"></view>-->
     <ui-img ui="radius border" src="{{basePath}}swiper-1.png" local current="0"/>
     <esInfo/>
 </ui-sys>

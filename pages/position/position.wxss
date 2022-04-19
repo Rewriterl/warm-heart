@@ -4,7 +4,7 @@
 
 .position_header {
     position: fixed;
-    height: 220rpx;
+    height: 230rpx;
     width: 100%;
 }
 
@@ -23,7 +23,7 @@
 
 .position-search {
     position: fixed;
-    top: 110rpx;
+    top: 120rpx;
     width: 100%;
 }
 
@@ -103,4 +103,11 @@
     margin-top: 18rpx;
     color: rgba(0, 0, 0, 1);
     font-size: 28rpx;
+}
+
+.bg-image{
+    position: absolute;
+    left: 0;
+    top: 220rpx;
+    width: 100%;
 }

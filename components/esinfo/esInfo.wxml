@@ -3,7 +3,7 @@
         <view class="p-1">
             <view class="anti-title-wrapper">
                 <ui-img src="{{basePath}}ze-fire.svg" width="24px"
-                        height="24px" style="display:inline-block" class="ze-fire"/>
+                        height="24px" style="display:inline-block;height:40rpx" class="ze-fire"/>
                 <text class="anti-es-title">抗击新冠疫情</text>
                 <text class="anti-es-date">截至2022.4.13</text>
             </view>

@@ -1,8 +1,9 @@
 <!-- TODO: 背景图片在高分辨率下显示补全，考虑到之后会启用真正的地图api，所以此处先搁置-->
-<ui-sys img="{{basePath}}map.png">
+<ui-sys>
+    <image src="{{basePath}}map.png" class="bg-image" mode="widthFix"/>
     <view class="position_header bg-yellow">
-        <ui-img class="header-arrow" style="z-index:1" src="{{basePath+back_arrow}}" width="24px"
-                height="24px" bind:tap="redictHome"></ui-img>
+        <ui-img class="header-arrow" style="z-index:1" src="{{basePath+back_arrow}}" width="48rpx"
+                height="48rpx" bind:tap="redictHome"></ui-img>
         <view class="position-search">
             <ui-search-bar isRight barBg="bg-yellow" placeholder="三兄弟数码科技">
                 <text style="color:#fff">搜索</text>
@@ -15,7 +16,7 @@
                 <view>26个停车点</view>
                 <text class="park-info-text">查看详情</text>
             </view>
-            <ui-img style="z-index:1" src="{{basePath+location_tag}}" width="66rpx"
+            <ui-img style="z-index:1003" src="{{basePath+location_tag}}" width="66rpx"
                     height="66rpx" bind:tap="redictHome"></ui-img>
         </view>
         <view class="park park-2">
@@ -23,7 +24,7 @@
                 <view>14个停车点</view>
                 <text class="park-info-text">查看详情</text>
             </view>
-            <ui-img style="z-index:1" src="{{basePath+location_tag}}" width="66rpx"
+            <ui-img style="z-index:1003" src="{{basePath+location_tag}}" width="66rpx"
                     height="66rpx" bind:tap="redictHome"></ui-img>
         </view>
         <view class="park park-3">
@@ -31,7 +32,7 @@
                 <view>11个停车点</view>
                 <text class="park-info-text">查看详情</text>
             </view>
-            <ui-img style="z-index:1" src="{{basePath+location_tag}}" width="66rpx"
+            <ui-img style="z-index:1003" src="{{basePath+location_tag}}" width="66rpx"
                     height="66rpx" bind:tap="redictHome"></ui-img>
         </view>
     </view>

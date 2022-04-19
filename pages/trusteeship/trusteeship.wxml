@@ -5,6 +5,8 @@
     <text class="hint_1">托管服务</text>
   </view>
 
+  <view style="height:40rpx"></view>
+
   <view class="pet_list" style="{{'height:'+pet_list.length*260+'rpx'}}">
     <view class="pet_info" wx:for="{{pet_list}}" wx:key="index">
       <image class="pet_image" src="{{basePath+pet_list[index].pet_image}}"></image>
