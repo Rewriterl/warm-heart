@@ -3,9 +3,8 @@
 <view class="my-navbar">
   <view>
     <ui-img class="back-arrow" src="../../../../asserts/arrow-left-white.svg" width="24px"
-            height="24px"></ui-img>
+            height="24px" bind:tap="redictHome"/>
   </view>
-
 
   <view class="in-navbar">
       <view>
@@ -23,7 +22,7 @@
             </view>
             <view class="flex-center" style="width: 100%;"> <text class="text-16 text-black">缴电费</text> </view>
         </view>
-    
+
         <view>
             <view  class="in-nav-list flex-center" style="background-color: #50adff;">
                 <ui-img src="../../../../asserts/sp-water.svg" width="70rpx"
@@ -31,7 +30,7 @@
             </view>
             <view class="flex-center" style="width: 100%;"> <text class="text-16 text-black">水控</text> </view>
         </view>
-    
+
         <view>
             <view   class="in-nav-list flex-center" style="background-color: #ff8a41;">
                 <ui-img src="../../../../asserts/wallet.svg" width="70rpx"
@@ -39,12 +38,12 @@
             </view>
             <view class="flex-center" style="width: 100%;"> <text class="text-16 text-black">余额查询</text> </view>
         </view>
-    
-    
+
+
   </view>
 
 </view>
-  
+
 </view>
 <!-- navbar end -->
 
@@ -53,8 +52,8 @@
     <view class="flex-center">
 
     <ui-img src="../../../../asserts/pp-speaker.svg" width="50rpx" height="50rpx"></ui-img>
-    <view class="flex-center" style="height:50rpx; margin-left:10rpx;"> 
-      <text class="text-18 text-black">社区志愿者服务即将开始！</text> 
+    <view class="flex-center" style="height:50rpx; margin-left:10rpx;">
+      <text class="text-18 text-black">社区志愿者服务即将开始！</text>
     </view>
 
     </view>
@@ -82,7 +81,7 @@
   <view>
     <ui-img src="../../../../asserts/pp-i1.jpg" width="300rpx" height="200rpx"></ui-img>
   </view>
- 
+
 </view>
 
 
@@ -95,7 +94,7 @@
   <view>
     <ui-img src="../../../../asserts/pp-i2.jpg" width="300rpx" height="200rpx"></ui-img>
   </view>
- 
+
 </view>
 
 
@@ -108,7 +107,7 @@
   <view>
     <ui-img src="../../../../asserts/pp-i1.jpg" width="300rpx" height="200rpx"></ui-img>
   </view>
- 
+
 </view>
 
 
