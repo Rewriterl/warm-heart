@@ -92,7 +92,7 @@ Page({
             })
         } else if (e.currentTarget.dataset.index == 3) {
             wx.navigateTo({
-                // url: '../../pages/smartHome/smartHome',
+                url: '../../pages/smarthome/Smarthome',
             })
         }
     },
@@ -113,7 +113,7 @@ Page({
             })
         } else if (e.currentTarget.dataset.index == 3) {
             wx.navigateTo({
-                // url: '../../pages/baby/baby',
+                url: '../../pages/parenting/parenting',
             })
         } else if (e.currentTarget.dataset.index == 4) {
             wx.navigateTo({
@@ -125,7 +125,7 @@ Page({
             })
         } else if (e.currentTarget.dataset.index == 6) {
             wx.navigateTo({
-                // url: '../../pages/property/property',
+                url: '../../pages/property/property',
             })
         } else if (e.currentTarget.dataset.index == 7) {
             wx.navigateTo({

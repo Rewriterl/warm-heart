@@ -62,5 +62,12 @@ Page({
    */
   onShareAppMessage() {
 
-  }
+  },
+  redictHome: function (e) {
+    var id = e.currentTarget.dataset.id,
+        url = '/pages/index/index';
+    wx.switchTab({
+      url: url
+    });
+  },
 })

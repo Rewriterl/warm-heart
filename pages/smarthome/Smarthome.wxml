@@ -1,7 +1,7 @@
 <view class="page">
   <!--navbar-->
   <view class="navbar">
-    <image class="back" src="{{back_arrow}}" bindtap="backIndex"></image>
+    <image class="back" src="{{back_arrow}}" bindtap="redictHome"/>
     <text class="hint_1">智能家居</text>
   </view>
 
