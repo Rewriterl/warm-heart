@@ -4,16 +4,18 @@
 
 .position_header {
     position: fixed;
-    height: 230rpx;
+    height: 10%;
     width: 100%;
 }
 
-.back {
-    position: fixed;
-    z-index: 1000;
-    left: 6rpx;
-    top: 6rpx;
-}
+/*.back {*/
+/*    position: fixed;*/
+/*    z-index: 1000;*/
+/*    width: 50rpx;*/
+/*    height: 50rpx;*/
+/*    top: 50%;*/
+/*    left: 20rpx;*/
+/*}*/
 
 .header-arrow {
     position: fixed;
@@ -23,7 +25,7 @@
 
 .position-search {
     position: fixed;
-    top: 120rpx;
+    top: 10%;
     width: 100%;
 }
 

@@ -85,3 +85,11 @@ image {
     color: rgba(242, 62, 62, 100);
     font-size: 36rpx;
 }
+
+.back{
+    position: absolute;
+    width: 50rpx;
+    height: 50rpx;
+    top: 25%;
+    left: 20rpx;
+}

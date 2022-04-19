@@ -8,8 +8,7 @@
 
 .nurse-header{
     position: fixed;
-    top: 0;
-    height: 150rpx;
+    height: 10%;
     width: 100% ;
     z-index: 1001;
     background-color: #FF8A41;
@@ -85,4 +84,12 @@
 
 .nurse-block{
     height: 150rpx;
+}
+
+.back{
+    position: absolute;
+    width: 50rpx;
+    height: 50rpx;
+    top: 50%;
+    left: 20rpx;
 }

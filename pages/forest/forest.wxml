@@ -1,8 +1,9 @@
 <ui-sys>
-    <image class="bg-image" mode="widthFix" src="{{basePath}}forest.png"></image>
-    <ui-img class="header-arrow" src="{{basePath}}ze-arrow-left-copy.svg" width="24px"
-            height="24px" bind:tap="redictHome"></ui-img>
-    <view class="ui-grid ui-cols-4 ui-cols-lg-6 p-3 m-t">
+    <ui-img class="back" src="{{basePath}}ze-arrow-left-copy.svg" width="50rpx"
+            height="50rpx" bind:tap="redictHome"></ui-img>
+    <image class="bg-image" style="height:1700rpx" src="{{basePath}}forest.png"/>
+    <view style="height:140rpx"></view>
+    <view class="ui-grid ui-cols-4 ui-cols-lg-6 p-3">
         <view class="ui-item">
             <ui-img src="{{basePath}}riFill-drop-fill.svg" width="27px" height="27px" class="drop"></ui-img>
             <view class="p-5 bg-my-1 m-4 cicular"></view>
