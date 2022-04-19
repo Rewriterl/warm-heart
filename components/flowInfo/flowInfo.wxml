@@ -1,0 +1,20 @@
+<view class="flow-wrapper">
+    <view class="flow-left">
+        <view wx:for="{{dataListL}}" wx:key="index">
+            <image src="{{dataListL[index].cover}}" mode="widthFix" style="width:340rpx"/>
+            <text>{{dataListL[index].title}}</text>
+            <view>
+                <ui-avatar ui="round" src="{{dataListL[index].avatar}}"/>{{dataListL[index].nickName}}
+            </view>
+        </view>
+    </view>
+    <view class="flow-right">
+        <view wx:for="{{dataListR}}" wx:key="index">
+            <image src="{{dataListR[index].cover}}" mode="widthFix" style="width:340rpx"/>
+            <text>{{dataListR[index].title}}</text>
+            <view>
+                <ui-avatar ui="round" src="{{dataListR[index].avatar}}"/>{{dataListR[index].nickName}}
+            </view>
+        </view>
+    </view>
+</view>

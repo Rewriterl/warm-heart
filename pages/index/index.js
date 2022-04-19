@@ -1,29 +1,150 @@
 Page({
     data: {
-        isLastPage: false,
-        page: 1,
-        search: '',
         showerror: "none",
-        showCategoryName: "",
-        categoryName: "",
         floatDisplay: "none",
         // listAdsuccess: true,
         // webSiteName: webSiteName,
         // domain: domain,
         swiperList: [
             {
-                img: '../../asserts/swiper-1.png',
+                img: '../../../../asserts/swiper-1.png',
                 url: '#',
                 type: 'navigateTo' //直接跳转类型
             }
         ],
         isFirst: false, // 是否第一次打开,
-        isLoading: false
+        isLoading: false,
+        logoWrapperList: [
+            {
+                imgUrl: '../../../../asserts/arcoDesign-qrcode.svg',
+                iconName: '健康码'
+            },
+            {
+                imgUrl: '../../../../asserts/ze-wechat.svg',
+                iconName: '行程码'
+            },
+            {
+                imgUrl: '../../../../asserts/ze-column.svg',
+                iconName: '核酸检测'
+            },
+            {
+                imgUrl: '../../../../asserts/iconPark-smart-optimization.svg',
+                iconName: '智能家居'
+            }
+        ],
+        menuList: [
+            {
+                mImgUrl: '../../../../asserts/ze-wap-home.svg',
+                iconName: '社区信息'
+            },
+            {
+                mImgUrl: '../../../../asserts/riFill-gps-fill.svg',
+                iconName: '位置'
+            },
+            {
+                mImgUrl: '../../../../asserts/ze-coupon-o.svg',
+                iconName: '家庭户口本'
+            },
+            {
+                mImgUrl: '../../../../asserts/iconPark-baby.svg',
+                iconName: '育儿专区'
+            },
+            {
+                mImgUrl: '../../../../asserts/ze-shop-collect-o.svg',
+                iconName: '托管服务'
+            },
+            {
+                mImgUrl: '../../../../asserts/ze-youzan-shield.svg',
+                iconName: '护工服务'
+            },
+            {
+                mImgUrl: '../../../../asserts/ze-hotel-o.svg',
+                iconName: '物业综合'
+            },
+            {
+                mImgUrl: '../../../../asserts/iconPark-leaves.svg',
+                iconName: '社区森林'
+            },
+            {
+                mImgUrl: '../../../../asserts/ze-balance-pay.svg',
+                iconName: '我的钱包'
+            },
+            {
+                mImgUrl: '../../../../asserts/ze-weapp-nav.svg',
+                iconName: '更多'
+            }
+        ]
     },
 
-    toNuclein:function(){
+    logoWrapperListSwitch: function (e) {
+        console.log(e.currentTarget.dataset.index)
+        if (e.currentTarget.dataset.index == 0) {
+            wx.navigateTo({
+                // url: '../../pages/healthCode/healthCode',
+            })
+        } else if (e.currentTarget.dataset.index == 1) {
+            wx.navigateTo({
+                // url: '../../pages/tripCode/tripCode',
+            })
+        } else if (e.currentTarget.dataset.index == 2) {
+            wx.navigateTo({
+                url: '../../pages/nuclein/nuclein',
+            })
+        } else if (e.currentTarget.dataset.index == 3) {
+            wx.navigateTo({
+                // url: '../../pages/smartHome/smartHome',
+            })
+        }
+    },
+
+    switchMenuList: function (e) {
+        console.log(e.currentTarget.dataset.index)
+        if (e.currentTarget.dataset.index == 0) {
+            wx.navigateTo({
+                // url: '../../pages/community/community',
+            })
+        } else if (e.currentTarget.dataset.index == 1) {
+            wx.navigateTo({
+                url: '../../pages/position/position',
+            })
+        } else if (e.currentTarget.dataset.index == 2) {
+            wx.navigateTo({
+                url: '../../pages/householdRegister/HouseholdRegister',
+            })
+        } else if (e.currentTarget.dataset.index == 3) {
+            wx.navigateTo({
+                // url: '../../pages/baby/baby',
+            })
+        } else if (e.currentTarget.dataset.index == 4) {
+            wx.navigateTo({
+                url: '../../pages/trusteeship/trusteeship',
+            })
+        } else if (e.currentTarget.dataset.index == 5) {
+            wx.navigateTo({
+                url: '../../pages/nurse/nurse',
+            })
+        } else if (e.currentTarget.dataset.index == 6) {
+            wx.navigateTo({
+                // url: '../../pages/property/property',
+            })
+        } else if (e.currentTarget.dataset.index == 7) {
+            wx.navigateTo({
+                url: '../../pages/forest/forest',
+            })
+        } else if (e.currentTarget.dataset.index == 8) {
+            wx.navigateTo({
+                // url: '../../pages/wallet/wallet',
+            })
+        } else if (e.currentTarget.dataset.index == 9) {
+            wx.navigateTo({
+                // url: '../../pages/more/more',
+            })
+        }
+    },
+
+    toNuclein: function () {
         wx.navigateTo({
-          url: '../nuclein/nuclein',
+            url: '../nuclein/nuclein',
         })
     },
 
@@ -102,23 +223,7 @@ Page({
         wx.switchTab({
             url: url
         });
-    },
-
-    goForest: function (e) {
-        var id = e.currentTarget.dataset.id,
-            url = '/pages/forest/forest';
-        wx.navigateTo({
-            url: url
-        });
-    },
-
-    goNurse: function (e) {
-        var id = e.currentTarget.dataset.id,
-            url = '/pages/nurse/nurse';
-        wx.navigateTo({
-            url: url
-        });
-    },
+    }
     // 广告相关配置
     // adbinderror: function (e) {
     //     var self = this;

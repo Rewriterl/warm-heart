@@ -1,0 +1,26 @@
+.parenting-header{
+    position: fixed;
+    top: 0;
+    height: 150rpx;
+    width: 100% ;
+    z-index: 1001;
+    background-color: #FF8A41;
+}
+
+.parenting-search{
+    position: fixed;
+    top: 110rpx;
+    width: 100%;
+}
+
+.menu-block{
+    height: 220rpx;
+}
+
+.header-arrow {
+    position: fixed;
+    left: 28rpx;
+    top: 60rpx;
+    width: 42rpx;
+    height: 42rpx;
+}

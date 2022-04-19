@@ -1,0 +1,86 @@
+/* pages/property/property.wxss */
+.my-navbar {
+  background-color: #FF8A41;
+  height: 450rpx;
+  border-bottom-left-radius:50rpx;
+  border-bottom-right-radius:50rpx;
+  width:100%;
+  position:fixed;
+  z-index:3;
+
+}
+
+.back-arrow {
+  position: fixed;
+  left: 28rpx;
+  top: 70rpx;
+  width: 42rpx;
+  height: 42rpx;
+}
+
+.in-navbar {
+  background-color: white;
+  border-top-left-radius:50rpx;
+  border-top-right-radius:50rpx;
+  height: 300rpx;
+  width: 700rpx;
+  position:absolute;
+  bottom:0rpx;
+  left:25rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.in-nav-list {
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 100rpx;
+}
+
+.banner {
+  background-color:white;
+   width:100%;
+   height:100rpx;
+   margin:30rpx 0rpx;
+   display:flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+
+}
+
+.title {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom:3rpx solid #a49c9c;
+}
+
+.an-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  border-bottom:3rpx solid #a49c9c;
+}
+
+.item-text {
+  width:410 rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-mywrap {
+  display: -webkit-box;  /*设置为弹性盒子*/
+  -webkit-line-clamp: 3;  /*最多显示5行*/
+  overflow: hidden;  /*超出隐藏*/
+  text-overflow: ellipsis;  /*超出显示为省略号*/
+  -webkit-box-orient: vertical;
+  word-break: break-all;  /*强制英文单词自动换行*/
+}
