@@ -1,19 +1,19 @@
 {
   "pages": [
-    "pages/Smarthome/Smarthome",
     "pages/index/index",
+    "pages/smarthome/Smarthome",
     "pages/parenting/parenting",
     "pages/moment/moment",
     "pages/position/position",
-    "pages/trusteeship/trusteeship",
     "pages/nurse/nurse",
+    "pages/property/property",
     "pages/message/message",
     "pages/shop/shop",
     "pages/home/home",
     "pages/nuclein/nuclein",
     "pages/trusteeship/trusteeship",
     "pages/forest/forest",
-    "pages/HouseholdRegister/HouseholdRegister"
+    "pages/householdRegister/HouseholdRegister"
   ],
   "window": {
     "backgroundTextStyle": "light",
