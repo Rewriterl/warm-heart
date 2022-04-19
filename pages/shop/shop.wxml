@@ -1,4 +1,4 @@
-<ui-sys tabbar>
+<ui-sys tabbar bg="ui-BG-5">
   <ui-navbar back="{{false}}" bg="ui-BG-Main main-yellow" op isSlot>
     <view class="header-container">
       <view class="header-above">
@@ -47,31 +47,31 @@
 
     <view class="rect-size">
       <view class="flex-center round" style="background-color:#bee570;  width:60px; height:60px;">
-        <ui-img ui="text-center" src="../../../../asserts/sp-lemon.svg" width="25px" height="25px"></ui-img>
+        <ui-img ui="text-center" src="{{basePath}}sp-lemon.svg" width="25px" height="25px"></ui-img>
       </view>
       <view class="flex-center" style="margin:5px 0px"> <text class="text-black">水果蔬菜</text> </view>
     </view>
     <view class="rect-size">
       <view class="flex-center round " style="background-color:#f8ceb4; width:60px; height:60px;">
-        <ui-img ui="text-center" src="../../../../asserts/sp-circle.svg" width="25px" height="25px"></ui-img>
+        <ui-img ui="text-center" src="{{basePath}}sp-circle.svg" width="25px" height="25px"></ui-img>
       </view>
       <view class="flex-center"  style="margin:5px 0px"> <text  class="text-black">肉禽蛋品</text> </view>
     </view>
     <view class="rect-size">
       <view class="flex-center  round" style="background-color:#50adff; width:60px; height:60px;">
-        <ui-img ui="text-center" src="../../../../asserts/sp-water.svg" width="25px" height="25px"></ui-img>
+        <ui-img ui="text-center" src="{{basePath}}sp-water.svg" width="25px" height="25px"></ui-img>
       </view>
       <view class="flex-center"  style="margin:5px 0px"> <text  class="text-black">海鲜水产</text> </view>
     </view>
     <view class="rect-size">
       <view class="flex-center round" style="background-color:#9dbae1; width:60px; height:60px;">
-        <ui-img ui="text-center" src="../../../../asserts/sp-pizza.svg" width="25px" height="25px"></ui-img>
+        <ui-img ui="text-center" src="{{basePath}}sp-pizza.svg" width="25px" height="25px"></ui-img>
       </view>
       <view class="flex-center"  style="margin:5px 0px"> <text  class="text-black">速食冷冻</text> </view>
     </view>
     <view class="rect-size">
       <view class="flex-center  round" style="background-color:#ffe38f; width:60px; height:60px;">
-        <ui-img ui="text-center" src="../../../../asserts/sp-beer.svg" width="25px" height="25px"></ui-img>
+        <ui-img ui="text-center" src="{{basePath}}sp-beer.svg" width="25px" height="25px"></ui-img>
       </view>
       <view class="flex-center"  style="margin:5px 0px"> <text  class="text-black">粮油食品</text> </view>
     </view>
@@ -93,7 +93,7 @@
       <view style="width:120px;" class="p-1">
 
         <view>
-          <ui-img width="110px" height="110px" src="../../../../asserts/sp-apple.jpg"></ui-img>
+          <ui-img width="110px" height="110px" src="{{basePath}}sp-apple.jpg"></ui-img>
         </view>
 
         <view class="flex-center p-2 text-black text-bold"> <text>新疆小苹果</text></view>
@@ -112,7 +112,7 @@
       <view style="width:120px;" class="p-1">
 
         <view>
-          <ui-img width="110px" height="110px" src="../../../../asserts/sp-xia.jpg"></ui-img>
+          <ui-img width="110px" height="110px" src="{{basePath}}sp-xia.jpg"></ui-img>
         </view>
         <view class="flex-center p-2 text-black text-bold"> <text>武汉小龙虾</text> </view>
         <view class="myflex-around">
@@ -129,7 +129,7 @@
       <view style="width:120px;" class="p-1">
 
         <view>
-          <ui-img width="110px" height="110px" src="../../../../asserts/sp-apple.jpg"></ui-img>
+          <ui-img width="110px" height="110px" src="{{basePath}}sp-apple.jpg"></ui-img>
         </view>
 
         <view class="flex-center p-2 text-black text-bold"> <text>北京大苹果</text> </view>
@@ -159,8 +159,8 @@
       <view class="p-my-title"><text class="text-dark-6">美国大樱桃尝鲜</text> </view>
 
       <view class="myflex-around p-my-title">
-        <ui-img width="65px" height="50px" src="../../../../asserts/sp-apple.jpg"></ui-img>
-        <ui-img width="65px" height="50px" src="../../../../asserts/sp-he.jpg"></ui-img>
+        <ui-img width="65px" height="50px" src="{{basePath}}sp-apple.jpg"></ui-img>
+        <ui-img width="65px" height="50px" src="{{basePath}}sp-he.jpg"></ui-img>
 
       </view>
 
@@ -175,8 +175,8 @@
       <view class="p-my-title"><text class="text-dark-6">凤梨19.9元/箱</text> </view>
 
       <view class="myflex-around p-my-title">
-        <ui-img width="65px" height="50px" src="../../../../asserts/sp-apple.jpg"></ui-img>
-        <ui-img width="65px" height="50px" src="../../../../asserts/sp-he.jpg"></ui-img>
+        <ui-img width="65px" height="50px" src="{{basePath}}sp-apple.jpg"></ui-img>
+        <ui-img width="65px" height="50px" src="{{basePath}}sp-he.jpg"></ui-img>
 
       </view>
 
@@ -192,19 +192,19 @@
 <view class="m-myblock bg-white flex">
 
   <view class="p-3">
-    <ui-img width="100px" height="100px" src="../../../../asserts/sp-he.jpg"></ui-img>
+    <ui-img width="100px" height="100px" src="{{basePath}}sp-he.jpg"></ui-img>
   </view>
 
   <view style="width:100%; padding:5px 15px" class="myflex-ybetween">
 
-      <view>  
+      <view>
         <view><text class="text-16 text-black"> 海南小海鲜</text></view>
 
         <view style="margin:5px 0px">
           <span class="bg-gray-e round" style="padding:0px 5px"> <text class="text-14 text-red">特价</text> </span>
           <span class="bg-gray-e round" style="padding:0px 5px;margin:0px 15px"><text class="text-14 text-dark-6">24H发货</text></span>
         </view>
-      </view>   
+      </view>
 
       <view class="myflex-between" >
         <view>

@@ -1,5 +1,5 @@
 <!-- tabbar -->
-<ui-sys	tabbar>
+<ui-sys	tabbar bg="ui-BG-5">
 
 <!-- navbar -->
 <view class="navbar">

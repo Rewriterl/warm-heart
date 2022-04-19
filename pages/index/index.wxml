@@ -4,7 +4,7 @@
         <view class="header-logo-wrapper">
             <view class="logo-wrapper-list" wx:for="{{logoWrapperList}}" wx:key="index" data-index="{{index}}"
                   bind:tap="logoWrapperListSwitch">
-                <ui-img ui="text-center" src="{{logoWrapperList[index].imgUrl}}" width="100rpx"
+                <ui-img ui="text-center" src="{{basePath+logoWrapperList[index].imgUrl}}" width="100rpx"
                         height="100rpx"/>
                 <text class="qr-text">{{logoWrapperList[index].iconName}}</text>
             </view>
@@ -14,11 +14,11 @@
         <view class="ui-item" wx:for="{{menuList}}" wx:key="index"
               bind:tap="switchMenuList"
               data-index="{{index}}">
-            <ui-img ui="text-center" width="80rpx" height="80rpx" src="{{menuList[index].mImgUrl}}"/>
+            <ui-img ui="text-center" width="80rpx" height="80rpx" src="{{basePath+menuList[index].mImgUrl}}"/>
             <text class="menu-logo-text">{{menuList[index].iconName}}</text>
         </view>
     </view>
-    <ui-img ui="radius border" src="{{swiperList[0].img}}" local current="0"/>
+    <ui-img ui="radius border" src="{{basePath+swiperList[0].img}}" local current="0"/>
     <esInfo/>
 </ui-sys>
 

@@ -1,7 +1,7 @@
-<ui-sys tabbar>
+<ui-sys tabbar bg="ui-BG-5">
     <view class="home-header">
         <view class="user-info-wrapper user-avatar">
-            <ui-avatar ui="round sl" src="../../../../asserts/avatar.png"/>
+            <ui-avatar ui="round sl" src="{{basePath}}avatar.png"/>
             <view class="user-info-block">
                 <text class="username">汪汪一家</text>
                 <text class="user-account">家庭账号：20220413</text>
@@ -10,19 +10,19 @@
         </view>
         <view class="home-menu">
             <view class="home-menu-item">
-                <ui-img src="../../../../asserts/ze-friends-o.svg" width="104rpx" height="100rpx"/>
+                <ui-img src="{{basePath}}ze-friends-o.svg" width="104rpx" height="100rpx"/>
                 <text class="menu-text">家庭成员</text>
             </view>
             <view class="home-menu-item">
-                <ui-img src="../../../../asserts/ze-coupon-o-copy.svg" width="104rpx" height="100rpx"/>
+                <ui-img src="{{basePath}}ze-coupon-o-copy.svg" width="104rpx" height="100rpx"/>
                 <text class="menu-text">家庭户口本</text>
             </view>
             <view class="home-menu-item">
-                <ui-img src="../../../../asserts/ze-edit.svg" width="104rpx" height="100rpx"/>
+                <ui-img src="{{basePath}}ze-edit.svg" width="104rpx" height="100rpx"/>
                 <text class="menu-text">修改家庭信息</text>
             </view>
             <view class="home-menu-item">
-                <ui-img src="../../../../asserts/iconPark-devices.svg" width="104rpx" height="100rpx"/>
+                <ui-img src="{{basePath}}iconPark-devices.svg" width="104rpx" height="100rpx"/>
                 <text class="menu-text">改绑家庭</text>
             </view>
         </view>
@@ -30,23 +30,23 @@
     <view style="height:444rpx"/>
     <view class="home-menu-sub">
         <view class="home-menu-item">
-            <ui-img src="../../../../asserts/iconPark-smart-optimization-copy.svg" width="90rpx" height="90rpx"/>
+            <ui-img src="{{basePath}}iconPark-smart-optimization-copy.svg" width="90rpx" height="90rpx"/>
             <text class="menu-sub-text">智能家居</text>
         </view>
         <view class="home-menu-item">
-            <ui-img src="../../../../asserts/ze-description.svg" width="90rpx" height="90rpx"/>
+            <ui-img src="{{basePath}}ze-description.svg" width="90rpx" height="90rpx"/>
             <text class="menu-sub-text">定位签到</text>
         </view>
         <view class="home-menu-item">
-            <ui-img src="../../../../asserts/iconPark-leaves.svg" width="90rpx" height="90rpx"/>
+            <ui-img src="{{basePath}}iconPark-leaves.svg" width="90rpx" height="90rpx"/>
             <text class="menu-sub-text">社区农场</text>
         </view>
         <view class="home-menu-item">
-            <ui-img src="../../../../asserts/ze-wechat-red.svg" width="90rpx" height="90rpx"/>
+            <ui-img src="{{basePath}}ze-wechat-red.svg" width="90rpx" height="90rpx"/>
             <text class="menu-sub-text">物业缴费</text>
         </view>
     </view>
     <view style="height:10rpx"></view>
-    <ui-img ui="radius border" src="../../../../asserts/swiper-1.png" local current="0"/>
+    <ui-img ui="radius border" src="{{basePath}}swiper-1.png" local current="0"/>
     <esInfo/>
 </ui-sys>

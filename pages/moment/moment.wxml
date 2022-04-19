@@ -1,4 +1,4 @@
-<ui-sys tabbar bg="bg-white">
+<ui-sys tabbar bg="ui-BG-5">
     <view class="moment-header">
         <view class="moment-search">
             <ui-search-bar isRight barBg="bg-yellow" placeholder="家庭聚餐">

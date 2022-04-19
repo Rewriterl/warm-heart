@@ -1,8 +1,9 @@
 Page({
     data: {
-        back_arrow: '../../../../asserts/ze-arrow-left-copy.svg',
-        location_tag: '../../../../asserts/if-pin.svg',
-        fingerprint: '../../../../asserts/riLine-fingerprint-line.svg',
+        basePath: getApp().globalData.basePath,
+        back_arrow: 'ze-arrow-left-copy.svg',
+        location_tag: 'if-pin.svg',
+        fingerprint: 'riLine-fingerprint-line.svg',
         tab_list: [
             {
                 tab_name: '首页',
@@ -23,7 +24,7 @@ Page({
         var index = e.currentTarget.dataset.index;
         var tab_list = this.data.tab_list;
         for (var i = 0; i < tab_list.length; i++) {
-            if (i == index) {
+            if (i === index) {
                 tab_list[i].active = '#fff';
             } else {
                 tab_list[i].active = '';

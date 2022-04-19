@@ -1,5 +1,7 @@
 Page({
-    data: {},
+    data: {
+        basePath: getApp().globalData.basePath
+    },
     onLoad: function (options) {
 
     },

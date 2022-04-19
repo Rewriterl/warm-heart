@@ -14,6 +14,7 @@ Component({
         },
     },
     data: {
+        basePath: getApp().globalData.basePath,
         dataListL: [],
         dataListR: []
     },

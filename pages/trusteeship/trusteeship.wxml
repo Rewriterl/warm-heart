@@ -7,7 +7,7 @@
 
   <view class="pet_list" style="{{'height:'+pet_list.length*260+'rpx'}}">
     <view class="pet_info" wx:for="{{pet_list}}" wx:key="index">
-      <image class="pet_image" src="{{pet_list[index].pet_image}}"></image>
+      <image class="pet_image" src="{{basePath+pet_list[index].pet_image}}"></image>
       <text class="pet_name">{{pet_list[index].pet_name}}</text>
       <text class="pet_address">{{pet_list[index].pet_address}}</text>
       <text class="pet_status">托管状态</text>
