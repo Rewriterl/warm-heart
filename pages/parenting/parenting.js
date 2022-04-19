@@ -1,5 +1,6 @@
 Page({
     data: {
+        basePath: getApp().globalData.basePath,
         parentingList: [
             {
                 cover: 'p5.png',
