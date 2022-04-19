@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/Smarthome/Smarthome",
     "pages/index/index",
     "pages/parenting/parenting",
     "pages/moment/moment",
@@ -10,8 +11,9 @@
     "pages/shop/shop",
     "pages/home/home",
     "pages/nuclein/nuclein",
-    "pages/householdRegister/HouseholdRegister",
-    "pages/forest/forest"
+    "pages/trusteeship/trusteeship",
+    "pages/forest/forest",
+    "pages/HouseholdRegister/HouseholdRegister"
   ],
   "window": {
     "backgroundTextStyle": "light",
