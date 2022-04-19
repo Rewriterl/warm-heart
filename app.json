@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/trusteeship/trusteeship",
     "pages/Smarthome/Smarthome",
     "pages/nurse/nurse",
     "pages/index/index",
@@ -8,7 +9,7 @@
     "pages/home/home",
     "pages/moment/moment",
     "pages/nuclein/nuclein",
-    "pages/trusteeship/trusteeship",
+    
     "pages/forest/forest",
     "pages/HouseholdRegister/HouseholdRegister"
     
