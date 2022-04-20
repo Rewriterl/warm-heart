@@ -2,7 +2,7 @@
 <ui-sys>
     <image src="{{basePath}}map.png" class="bg-image" mode="widthFix"/>
     <view class="position_header bg-yellow">
-        <ui-img class="back" style="z-index:1;top:50%" src="{{basePath+back_arrow}}" width="48rpx"
+        <ui-img class="back" style="z-index:1;top:50%" src="{{back_arrow}}" width="48rpx"
                 height="48rpx" bind:tap="redictHome"></ui-img>
         <view class="position-search">
             <ui-search-bar isRight barBg="bg-yellow" placeholder="三兄弟数码科技">

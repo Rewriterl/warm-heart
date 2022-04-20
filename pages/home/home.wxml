@@ -9,44 +9,20 @@
             </view>
         </view>
         <view class="home-menu">
-            <view class="home-menu-item">
-                <ui-img src="{{basePath}}ze-friends-o.svg" width="104rpx" height="100rpx"/>
-                <text class="menu-text">家庭成员</text>
-            </view>
-            <view class="home-menu-item">
-                <ui-img src="{{basePath}}ze-coupon-o-copy.svg" width="104rpx" height="100rpx"/>
-                <text class="menu-text">家庭户口本</text>
-            </view>
-            <view class="home-menu-item">
-                <ui-img src="{{basePath}}ze-edit.svg" width="104rpx" height="100rpx"/>
-                <text class="menu-text" style="font-size:18rpx">修改家庭信息</text>
-            </view>
-            <view class="home-menu-item">
-                <ui-img src="{{basePath}}iconPark-devices.svg" width="104rpx" height="100rpx"/>
-                <text class="menu-text">改绑家庭</text>
+            <view class="home-menu-item" wx:for="{{HeaderMenuList}}" wx:key="index" bind:tap="switchHeaderMenuList" data-index="{{index}}">
+                <ui-img src="{{basePath+HeaderMenuList[index].icon}}" width="104rpx" height="100rpx"/>
+                <text style="{{HeaderMenuList[index].style}}" class="menu-text">{{HeaderMenuList[index].name}}</text>
             </view>
         </view>
     </view>
     <view style="height:444rpx"/>
     <view class="home-menu-sub">
-        <view class="home-menu-item">
-            <ui-img src="{{basePath}}iconPark-smart-optimization-copy.svg" width="90rpx" height="90rpx"/>
-            <text class="menu-sub-text">智能家居</text>
-        </view>
-        <view class="home-menu-item">
-            <ui-img src="{{basePath}}ze-description.svg" width="90rpx" height="90rpx"/>
-            <text class="menu-sub-text">定位签到</text>
-        </view>
-        <view class="home-menu-item">
-            <ui-img src="{{basePath}}iconPark-leaves.svg" width="90rpx" height="90rpx"/>
-            <text class="menu-sub-text">社区农场</text>
-        </view>
-        <view class="home-menu-item">
-            <ui-img src="{{basePath}}ze-wechat-red.svg" width="90rpx" height="90rpx"/>
-            <text class="menu-sub-text">物业缴费</text>
+        <view class="home-menu-item" wx:for="{{MenuList}}" wx:key="index"
+              data-index="{{index}}" bind:tap="switchMenuList">
+            <ui-img src="{{basePath+MenuList[index].icon}}" width="90rpx" height="90rpx"/>
+            <text class="menu-sub-text">{{MenuList[index].name}}</text>
         </view>
     </view>
-<!--    <view style="height:10rpx"></view>-->
     <ui-img ui="radius border" src="{{basePath}}swiper-1.png" local current="0"/>
     <esInfo/>
 </ui-sys>

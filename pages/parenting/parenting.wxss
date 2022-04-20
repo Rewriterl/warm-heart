@@ -16,7 +16,7 @@
 
 .parenting-search{
     position: fixed;
-    top: 10%;
+    top: 8%;
     width: 100%;
 }
 

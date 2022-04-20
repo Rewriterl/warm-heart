@@ -1,6 +1,6 @@
 <ui-sys>
     <view class="parenting-header">
-        <ui-img class="back" src="{{basePath}}ze-arrow-left-copy.svg" width="24px"
+        <ui-img class="back" src="{{back_arrow}}" width="24px"
                 height="24px" bind:tap="redictHome"></ui-img>
         <view class="parenting-search">
             <ui-search-bar isRight barBg="bg-yellow" placeholder="防拐卖教育短片">

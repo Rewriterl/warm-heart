@@ -20,5 +20,5 @@
     </view>
     <view style="height:10rpx"></view>
     <ui-img ui="radius border" src="{{basePath+swiperList[0].img}}" local current="0"/>
-    <esInfo style=""/>
+    <esInfo/>
 </ui-sys>

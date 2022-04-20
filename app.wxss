@@ -59,10 +59,6 @@ image {
     height: 42rpx;
 }
 
-.menu-block {
-    height: 220rpx;
-}
-
 .menu-list {
     display: flex;
     flex-direction: row;
