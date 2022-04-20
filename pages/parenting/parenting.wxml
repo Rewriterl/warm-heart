@@ -1,3 +1,4 @@
+<!--TODO:日后此页面将会抽离成组件，现在做演示用-->
 <ui-sys>
     <view class="parenting-header">
         <ui-img class="back" src="{{back_arrow}}" width="24px"
@@ -8,7 +9,7 @@
             </ui-search-bar>
         </view>
     </view>
-    <view class="menu-block"></view>
+    <view style="height:250rpx"></view>
     <view class="menu-list">
         <text class="menu-all">全部</text>
         <text class="menu-warn">防拐卖</text>

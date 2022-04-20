@@ -1,6 +1,6 @@
 .parenting-header{
     position: fixed;
-    height: 10%;
+    height: 12%;
     width: 100%;
     z-index: 1001;
     background-color: #FF8A41;
@@ -16,12 +16,8 @@
 
 .parenting-search{
     position: fixed;
-    top: 8%;
+    top: 140rpx;
     width: 100%;
-}
-
-.menu-block{
-    height: 20%rpx;
 }
 
 .header-arrow {
