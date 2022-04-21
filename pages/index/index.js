@@ -134,7 +134,7 @@ Page({
             })
         } else if (e.currentTarget.dataset.index === 8) {
             wx.navigateTo({
-                // url: '../../pages/wallet/wallet',
+                url: '../../pages/rescue/rescue',
             })
         } else if (e.currentTarget.dataset.index === 9) {
             wx.navigateTo({

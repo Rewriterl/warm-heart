@@ -60,18 +60,18 @@
 }
 
 .park-1 {
-    left: 270rpx;
-    top: 260rpx;
+    left: 30rpx;
+    top: 578rpx;
 }
 
 .park-2 {
-    left: 490rpx;
-    top: 590rpx;
+    left: 462rpx;
+    top: 444rpx;
 }
 
 .park-3 {
-    left: 158px;
-    top: 430px;
+    left: 274px;
+    top: 1000px;
 }
 
 .park-info {
