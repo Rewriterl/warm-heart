@@ -10,8 +10,8 @@
             </view>
         </view>
     </view>
-    <view class="ui-grid ui-cols-5 ui-cols-lg-6">
-        <view class="ui-item" wx:for="{{menuList}}" wx:key="index"
+    <view class="ui-grid ui-cols-5">
+        <view class="ui-item my-ui-item" wx:for="{{menuList}}" wx:key="index"
               bind:tap="switchMenuList"
               data-index="{{index}}">
             <ui-img ui="text-center" width="80rpx" height="80rpx" src="{{basePath+menuList[index].mImgUrl}}"/>

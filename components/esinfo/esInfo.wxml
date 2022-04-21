@@ -9,15 +9,15 @@
             </view>
             <view class="p-5 m-2 bg-white" style="height:240rpx;border-radius: 30rpx;">
                 <view>
-                    <text class="">辽宁新增</text>
+                    <text decode="{{true}}">辽宁新增&ensp;</text>
                     <text style="color:green">{{1}}</text>
                 </view>
                 <view>
-                    <text class="">国内新增</text>
+                    <text decode="{{true}}">国内新增&ensp;</text>
                     <text style="color:#FF8A41">{{2250}}</text>
                 </view>
                 <view>
-                    <text class="">现有病例</text>
+                    <text decode="{{true}}">现有病例&ensp;</text>
                     <text s style="color:#F23E3E">{{24168}}</text>
                 </view>
             </view>

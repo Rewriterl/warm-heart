@@ -61,20 +61,26 @@
     overflow: hidden;
 }
 
-.ui-item {
+/*.ui-item {*/
+/*    display: block;*/
+/*    padding: 24rpx 0 20rpx;*/
+/*    text-align: center;*/
+/*}*/
+
+.my-ui-item {
     display: block;
     padding: 24rpx 0 20rpx;
     text-align: center;
 }
 
-.ui-item image {
+.my-ui-item image {
     width: 80rpx;
     height: 80rpx;
     margin: auto auto 20rpx;
     display: block;
 }
 
-.ui-item text {
+.my-ui-item text {
     color: #333;
     font-weight: 300;
 }
