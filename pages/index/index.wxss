@@ -1,7 +1,7 @@
 .qr-text {
     width: 55rpx;
     height: 25rpx;
-    color: rgba(255, 255, 255, 100);
+    color: rgba(0, 0, 0, 1);
     font-size: 18px;
     text-align: left;
 }
@@ -77,4 +77,13 @@
 .ui-item text {
     color: #333;
     font-weight: 300;
+}
+
+.index-header{
+    height: 30vh;
+    width: 100%;
+    background-image: url("https://cdn.jsdelivr.net/gh/Rewriterl/warm-heart@master/assets/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }

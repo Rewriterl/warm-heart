@@ -11,7 +11,8 @@
     height: 10%;
     width: 100% ;
     z-index: 1001;
-    background-color: #FF8A41;
+    /*background-color: #FF8A41;*/
+    background-image: url("https://cdn.jsdelivr.net/gh/Rewriterl/warm-heart@master/assets/bg.jpg");
 }
 
 .header-bg-s{

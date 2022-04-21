@@ -8,22 +8,22 @@ Page({
         HeaderMenuList:[
             {
                 name:'家庭成员',
-                icon:'ze-friends-o.svg',
+                icon:'ze-friends-o-s.svg',
                 style:''
             },
             {
                 name:'家庭户口本',
-                icon:'ze-coupon-o-copy.svg',
+                icon:'ze-coupon-o-copy-s.svg',
                 style:''
             },
             {
                 name:'修改家庭信息',
-                icon:'ze-edit.svg',
+                icon:'ze-edit-s.svg',
                 style:'font-size:18rpx'
             },
             {
                 name:'改绑家庭',
-                icon:'iconPark-devices.svg',
+                icon:'iconPark-devices-s.svg',
                 style:''
             }
         ],

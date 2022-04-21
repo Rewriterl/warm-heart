@@ -3,6 +3,7 @@
   height: 140rpx;
   background-color: #FF8A41;
   color: white;
+  background-image: url("https://cdn.jsdelivr.net/gh/Rewriterl/warm-heart@master/assets/bg.jpg");
 }
 
 .bell{

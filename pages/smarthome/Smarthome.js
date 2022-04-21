@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    basePath: getApp().globalData.basePath,
     smarthome_list:[
       {
         name:"总开关",

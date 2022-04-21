@@ -1,5 +1,5 @@
 <ui-sys tabbar bg="ui-BG-5">
-  <ui-navbar back="{{false}}" bg="ui-BG-Main main-yellow" op isSlot>
+  <ui-navbar back="{{false}}" bg="ui-BG-Main shop-bg main-yellow" op isSlot>
     <view class="header-container">
       <view class="header-above">
         <view class="above-left">
@@ -9,12 +9,12 @@
         <view class="above-right">
 
           <view>
-            <text class="text-18 text-white _icon-check-round-o"></text>
+            <text class="text-18 text-orange _icon-check-round-o"></text>
             <text class="t2">优质好货</text>
           </view>
 
           <view>
-            <text class="text-18 text-white _icon-check-round-o"></text>
+            <text class="text-18 text-orange _icon-check-round-o"></text>
             <text class="t2">专属物流</text>
 
           </view>

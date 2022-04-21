@@ -7,8 +7,8 @@ Page({
         fingerprint: 'riLine-fingerprint-line.svg',
         tab_list: [
             {
-                tab_name: '首页',
-                active: '#fff'
+                tab_name: '我的位置',
+                active: '#FF8A41'
             },
             {
                 tab_name: '智能停车',
@@ -26,7 +26,7 @@ Page({
         var tab_list = this.data.tab_list;
         for (var i = 0; i < tab_list.length; i++) {
             if (i === index) {
-                tab_list[i].active = '#fff';
+                tab_list[i].active = '#FF8A41';
             } else {
                 tab_list[i].active = '';
             }

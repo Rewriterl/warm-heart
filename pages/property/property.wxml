@@ -2,7 +2,7 @@
 <view style=" width:100%;height:450rpx;">
 <view class="my-navbar">
   <view>
-    <ui-img class="back-arrow" src="{{basePath}}arrow-left-white.svg" width="24px"
+    <ui-img class="back-arrow" src="{{basePath}}ze-arrow-left-copy.svg" width="24px"
             height="24px" bind:tap="redictHome"/>
   </view>
 

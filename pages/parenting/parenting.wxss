@@ -1,9 +1,10 @@
 .parenting-header{
     position: fixed;
-    height: 12%;
+    height: 10vh;
     width: 100%;
     z-index: 1001;
-    background-color: #FF8A41;
+    /*background-color: #FF8A41;*/
+    background-image: url("https://cdn.jsdelivr.net/gh/Rewriterl/warm-heart@master/assets/bg.jpg");
 }
 
 .back{
@@ -26,4 +27,8 @@
     top: 60rpx;
     width: 42rpx;
     height: 42rpx;
+}
+
+.bg-opacity{
+    background-color: rgba(0,0,0,0);
 }

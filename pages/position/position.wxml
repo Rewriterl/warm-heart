@@ -2,12 +2,18 @@
 <ui-sys>
     <image src="{{basePath}}map.png" class="bg-image" mode="widthFix"/>
     <view class="position_header bg-yellow">
-        <ui-img class="back" style="z-index:1;top:50%" src="{{back_arrow}}" width="48rpx"
+        <ui-img class="back" style="z-index:1;top:50%" src="{{basePath}}ze-arrow-left-copy.svg" width="48rpx"
                 height="48rpx" bind:tap="redictHome"></ui-img>
         <view class="position-search">
-            <ui-search-bar isRight barBg="bg-yellow" placeholder="三兄弟数码科技">
-                <text style="color:#fff">搜索</text>
+            <ui-search-bar isRight barBg="bg-opacity" placeholder="三兄弟数码科技">
+                <text style="color:#FF8A41">搜索</text>
             </ui-search-bar>
+        </view>
+    </view>
+    <view wx:if="{{tab_list[0].active.length!==0}}">
+        <view class="park park-0">
+            <ui-img style="z-index:1003" src="{{basePath+location_tag}}" width="66rpx"
+                    height="66rpx" bind:tap="redictHome"></ui-img>
         </view>
     </view>
     <view wx:if="{{tab_list[1].active.length!==0}}">
@@ -44,7 +50,21 @@
         </view>
     </view>
     <ui-fixed bottom>
-        <view class="position-tab-wrapper bg-yellow">
+        <view class="position-switch">
+            <view class="position-choose-wrapper">
+                <view class="circular color-blue"/>
+                <view class="position-now">
+                    <text>金融街512号</text>
+                    <view class="now-tip">您的位置</view>
+                </view>
+            </view>
+            <view class="line"/>
+            <view class="position-choose-wrapper">
+                <view class="circular color-red"/>
+                <text class="position-choose">您要去哪?</text>
+            </view>
+        </view>
+        <view class="position-tab-wrapper">
             <text wx:for="{{tab_list}}" style="{{'color:'+tab_list[index].active}}"
                   class="position-tab" wx:key="index" data-index="{{index}}"
                   bind:tap="changeActive">{{tab_list[index].tab_name}}</text>

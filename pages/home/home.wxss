@@ -28,7 +28,7 @@
     display: block;
     height: 52rpx;
     /*line-height: 52rpx;*/
-    color: rgba(240, 239, 239, 100);
+    color: rgba(164, 156, 156, 100);
     font-size: 14px;
     text-align: left;
     font-family: SourceHanSansSC-bold;
@@ -38,7 +38,8 @@
     opacity: 0.7;
     border-radius: 30rpx;
     color: #FF8A41;
-    text-align: center;
+    text-align: left;
+    width: 80%;
     background-color: rgba(240, 239, 239, 100);
 }
 
@@ -48,7 +49,8 @@
     width: 100%;
     top: 0px;
     z-index: 1001;
-    background-color: #FF8A41;
+    /*background-color: #FF8A41;*/
+    background-image: url("https://cdn.jsdelivr.net/gh/Rewriterl/warm-heart@master/assets/bg.jpg");
 }
 
 .home-menu{
@@ -60,7 +62,7 @@
 }
 
 .menu-text{
-    color: #fff;
+    color: rgba(0,0,0,1);
     font-size: 22rpx;
 }
 

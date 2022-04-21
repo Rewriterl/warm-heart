@@ -17,19 +17,19 @@ Page({
         isLoading: false,
         logoWrapperList: [
             {
-                imgUrl: 'arcoDesign-qrcode.svg',
+                imgUrl: 'qrcode-green.svg',
                 iconName: '健康码'
             },
             {
-                imgUrl: 'ze-wechat.svg',
+                imgUrl: 'ze-wechat-brown.svg',
                 iconName: '行程码'
             },
             {
-                imgUrl: 'ze-column.svg',
+                imgUrl: 'ze-column-yellow.svg',
                 iconName: '核酸检测'
             },
             {
-                imgUrl: 'iconPark-smart-optimization.svg',
+                imgUrl: 'iconPark-smart-optimization-blue.svg',
                 iconName: '智能家居'
             }
         ],
@@ -67,8 +67,8 @@ Page({
                 iconName: '社区森林'
             },
             {
-                mImgUrl: 'ze-balance-pay.svg',
-                iconName: '我的钱包'
+                mImgUrl: 'rescue.svg',
+                iconName: '紧急救援'
             },
             {
                 mImgUrl: 'ze-weapp-nav.svg',

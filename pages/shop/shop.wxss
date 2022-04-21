@@ -33,7 +33,6 @@
   align-items: flex-start;
   width: 100%;
   height: 100%;
-
 }
 
 .header-above {
@@ -46,13 +45,13 @@
 .above-right {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 .title {
   font-family: ZKGaoDuanHei;
   font-weight: 650;
   font-size: 40px;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 138, 65, 100);
   line-height: 100%;
   margin:5px 10px;
 
@@ -64,7 +63,7 @@
   font-weight: 600;
   font-size: 14px;
   text-align: left;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(164, 156, 156, 100);
 }
 
 .below-container {
@@ -109,3 +108,10 @@
   justify-content:space-between;
 }
 
+.shop-bg{
+  background-image: url("https://cdn.jsdelivr.net/gh/Rewriterl/warm-heart@master/assets/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:100%;
+}

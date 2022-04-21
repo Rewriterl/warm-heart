@@ -1,6 +1,6 @@
 <ui-sys bg="#FBF7F7">
     <view class="nurse-header">
-        <ui-img class="back" src="{{back_arrow}}" width="50rpx"
+        <ui-img class="back" src="{{basePath}}ze-arrow-left-copy.svg" width="50rpx"
                 height="50rpx" bind:tap="redictHome"/>
     </view>
     <view class="header-bg-s"></view>

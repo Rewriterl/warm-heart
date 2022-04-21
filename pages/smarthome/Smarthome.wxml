@@ -1,8 +1,8 @@
 <view class="page">
   <!--navbar-->
   <view class="navbar">
-    <image class="back" src="{{back_arrow}}" bindtap="redictHome"/>
-    <text class="hint_1">智能家居</text>
+    <image class="back" src="{{basePath}}ze-arrow-left-copy.svg" bindtap="redictHome"/>
+<!--    <text class="hint_1">智能家居</text>-->
   </view>
 
   <!-- 智能安防 -->

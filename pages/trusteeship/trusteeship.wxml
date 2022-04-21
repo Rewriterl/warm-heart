@@ -1,8 +1,8 @@
 <view class="page">
   <!--navbar-->
   <view class="navbar">
-    <image bind:tap="redictHome" class="back" src="{{back_arrow}}"></image>
-    <text class="hint_1">托管服务</text>
+    <image bind:tap="redictHome" class="back" src="{{basePath}}ze-arrow-left-copy.svg"></image>
+<!--    <text class="hint_1">托管服务</text>-->
   </view>
 
   <view style="height:40rpx"></view>

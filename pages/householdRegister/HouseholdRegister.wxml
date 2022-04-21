@@ -1,8 +1,8 @@
 <view class="page">
     <!--navbar-->
     <view class="navbar">
-        <image class="back" src="{{back_arrow}}" bindtap="redictHome"></image>
-        <text class="hint_1">家庭户口本</text>
+        <image class="back" src="{{basePath}}ze-arrow-left-copy.svg" bindtap="redictHome"></image>
+<!--        <text class="hint_1">家庭户口本</text>-->
     </view>
     <!-- 家庭成员列表 -->
     <view class="family_list" style="{{'height:'+family_list.length*200+'rpx'}}">

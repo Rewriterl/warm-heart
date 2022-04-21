@@ -10,6 +10,6 @@ App({
 
     },
     globalData: {
-        basePath:'https://cdn.jsdelivr.net/gh/Rewriterl/warm-heart@0.2/asserts/'
+        basePath:'https://cdn.jsdelivr.net/gh/Rewriterl/warm-heart@master/assets/'
     }
 })

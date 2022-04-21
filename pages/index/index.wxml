@@ -1,6 +1,6 @@
 <ui-sys tabbar bg="ui-BG-5">
 
-    <ui-navbar back="{{false}}" bg="ui-BG-Main main-yellow" op isSlot>
+    <view class="index-header">
         <view class="header-logo-wrapper">
             <view class="logo-wrapper-list" wx:for="{{logoWrapperList}}" wx:key="index" data-index="{{index}}"
                   bind:tap="logoWrapperListSwitch">
@@ -9,7 +9,7 @@
                 <text class="qr-text">{{logoWrapperList[index].iconName}}</text>
             </view>
         </view>
-    </ui-navbar>
+    </view>
     <view class="ui-grid ui-cols-5 ui-cols-lg-6">
         <view class="ui-item" wx:for="{{menuList}}" wx:key="index"
               bind:tap="switchMenuList"
