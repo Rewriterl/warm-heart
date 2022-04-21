@@ -1,6 +1,6 @@
 .parenting-header{
     position: fixed;
-    height: 10vh;
+    height: 18vh;
     width: 100%;
     z-index: 1001;
     /*background-color: #FF8A41;*/
@@ -11,7 +11,7 @@
     position: absolute;
     width: 50rpx;
     height: 50rpx;
-    top: 50%;
+    top: 5vh;
     left: 20rpx;
 }
 

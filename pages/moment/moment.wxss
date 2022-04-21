@@ -1,6 +1,6 @@
 .moment-header{
     position: fixed;
-    height: 10vh;
+    height: 18vh;
     width: 100vw;
     z-index: 1001;
     /*background-color: #FF8A41;*/

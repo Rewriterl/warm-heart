@@ -9,7 +9,7 @@
             </ui-search-bar>
         </view>
     </view>
-    <view style="height:250rpx"></view>
+    <view style="height:20vh"></view>
     <view class="menu-list">
         <text class="menu-all">全部</text>
         <text class="menu-warn">防拐卖</text>

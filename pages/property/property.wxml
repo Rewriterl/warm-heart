@@ -74,7 +74,7 @@
 
 <view class="an-item p-3">
   <view class="item-text">
-    <view> <text class="text-16 text-black text-mywrap">为确保已入住户在节日期间充分享受休息、放松心情，节假日期间</text> </view>
+    <view> <text class="text-16 text-black text-mywrap">为确保已入住户在节日期间充分享受休息、放松心情，节假日期间...</text> </view>
     <view> <text class="text-14 text-dark-8" >2022.4.13 13: 08</text></view>
   </view>
 
@@ -87,7 +87,7 @@
 
 <view class="an-item p-3">
   <view class="item-text">
-    <view> <text class="text-16 text-black text-mywrap">正在装修的业主，应注意提醒装修工人每天收工前检查户内门窗、水</text> </view>
+    <view> <text class="text-16 text-black text-mywrap">虽然不知道要说点什么，但是有点字大概就可以了。</text> </view>
     <view> <text class="text-14 text-dark-8" >2022.4.15 14: 08</text></view>
   </view>
 
