@@ -11,19 +11,22 @@
     </view>
     <view class="park park-0">
         <ui-img style="z-index:1003" src="{{basePath+location_tag}}" width="66rpx"
-                height="66rpx" bind:tap="redictHome"></ui-img>
+                height="66rpx"></ui-img>
     </view>
     <view class="park park-1">
+        <view class="park-info park-info-text" style="position: fixed;right: 66rpx;top: 550rpx;width:20%">
+            距离最近
+        </view>
         <ui-img style="z-index:1003" src="{{basePath+aid_tag}}" width="66rpx"
-                height="66rpx" bind:tap="redictHome"></ui-img>
+                height="66rpx"></ui-img>
     </view>
     <view class="park park-2">
         <ui-img style="z-index:1003" src="{{basePath+aid_tag}}" width="66rpx"
-                height="66rpx" bind:tap="redictHome"></ui-img>
+                height="66rpx"></ui-img>
     </view>
     <view class="park park-3">
         <ui-img style="z-index:1003" src="{{basePath+aid_tag}}" width="66rpx"
-                height="66rpx" bind:tap="redictHome"></ui-img>
+                height="66rpx"></ui-img>
     </view>
     <ui-fixed bottom>
         <view class="position-switch">
