@@ -1,39 +1,39 @@
 .es-card {
-    left: 6px;
-    top: 573px;
-    width: 144px;
-    height: 147px;
-    line-height: 20px;
-    border-radius: 15px;
+    left: 12rpx;
+    top: 1146rpx;
+    width: 288rpx;
+    height: 294rpx;
+    line-height: 40rpx;
+    border-radius: 30rpx;
     background-color: rgba(255, 255, 255, 100);
     color: rgba(16, 16, 16, 100);
-    font-size: 14px;
+    font-size: 28rpx;
     text-align: center;
     font-family: -apple-system;
 }
 
 .info-card {
-    line-height: 20px;
-    border-radius: 15px;
+    line-height: 40rpx;
+    border-radius: 30rpx;
     background-color: rgba(255, 255, 255, 100);
 }
 
 .info-card .info-card-title {
     color: rgba(255, 138, 65, 100);
-    font-size: 16px;
+    font-size: 32rpx;
     font-family: ZKGaoDuanHei-regular;
 }
 
 .info-card .info-card-content {
     color: rgba(0, 0, 0, 1);
-    font-size: 16px;
+    font-size: 32rpx;
     font-family: SourceHanSansSC-regular;
 }
 
 .anti-es-title{
     margin-right: 100rpx;
     color: rgba(0, 0, 0, 1);
-    font-size: 16px;
+    font-size: 32rpx;
     text-align: left;
     font-family: SourceHanSansSC-medium;
 }
@@ -41,9 +41,19 @@
 .anti-es-date{
     display: block;
     color: rgba(0, 0, 0, 1);
-    font-size: 13px;
+    font-size: 26rpx;
     text-align: left;
     font-weight: lighter;
     margin-left: 56rpx;
     font-family: SourceHanSerif-regular;
+}
+
+.anti-title-wrapper{
+    height: 100rpx;
+}
+
+.ze-fire{
+    /*position: fixed;*/
+    /*top: 50rpx;*/
+    /*z-index: 1002;*/
 }

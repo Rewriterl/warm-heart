@@ -1,13 +1,15 @@
 <view class="page">
   <!--navbar-->
   <view class="navbar">
-    <image bind:tap="redictHome" class="back" src="{{back_arrow}}"></image>
-    <text class="hint_1">托管服务</text>
+    <image bind:tap="redictHome" class="back" src="{{basePath}}ze-arrow-left-copy.svg"></image>
+<!--    <text class="hint_1">托管服务</text>-->
   </view>
+
+  <view style="height:40rpx"></view>
 
   <view class="pet_list" style="{{'height:'+pet_list.length*260+'rpx'}}">
     <view class="pet_info" wx:for="{{pet_list}}" wx:key="index">
-      <image class="pet_image" src="{{pet_list[index].pet_image}}"></image>
+      <image class="pet_image" src="{{basePath+pet_list[index].pet_image}}"></image>
       <text class="pet_name">{{pet_list[index].pet_name}}</text>
       <text class="pet_address">{{pet_list[index].pet_address}}</text>
       <text class="pet_status">托管状态</text>

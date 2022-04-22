@@ -1,24 +1,30 @@
 <ui-sys tabbar bg="ui-BG-5">
 
-    <ui-navbar back="{{false}}" bg="ui-BG-Main main-yellow" op isSlot>
+    <view class="index-header">
         <view class="header-logo-wrapper">
             <view class="logo-wrapper-list" wx:for="{{logoWrapperList}}" wx:key="index" data-index="{{index}}"
                   bind:tap="logoWrapperListSwitch">
-                <ui-img ui="text-center" src="{{logoWrapperList[index].imgUrl}}" width="100rpx"
+                <ui-img ui="text-center" src="{{basePath+logoWrapperList[index].imgUrl}}" width="100rpx"
                         height="100rpx"/>
                 <text class="qr-text">{{logoWrapperList[index].iconName}}</text>
             </view>
         </view>
-    </ui-navbar>
-    <view class="ui-grid ui-cols-5 ui-cols-lg-6">
-        <view class="ui-item" wx:for="{{menuList}}" wx:key="index"
+    </view>
+    <view class="ui-grid ui-cols-5">
+        <view hover-class="select-my-ui" class="ui-item my-ui-item" wx:for="{{menuList}}" wx:key="index"
               bind:tap="switchMenuList"
               data-index="{{index}}">
-            <ui-img ui="text-center" width="80rpx" height="80rpx" src="{{menuList[index].mImgUrl}}"/>
+            <ui-img ui="text-center" width="80rpx" height="80rpx" src="{{basePath+menuList[index].mImgUrl}}"/>
             <text class="menu-logo-text">{{menuList[index].iconName}}</text>
         </view>
     </view>
-    <ui-img ui="radius border" src="{{swiperList[0].img}}" local current="0"/>
+    <view style="height:10rpx"></view>
+    <swiper autoplay="{{true}}" duration="{{1800}}" indicatorDots="{{true}}" easing-function="linear">
+        <block wx:for="{{swiperList}}" wx:key="index">
+            <swiper-item>
+                <image mode="widthFix" src="{{basePath+item.img}}" style="width:100%"/>
+            </swiper-item>
+        </block>
+    </swiper>
     <esInfo/>
 </ui-sys>
-

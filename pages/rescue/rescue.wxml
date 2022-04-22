@@ -1,0 +1,47 @@
+<ui-sys>
+    <image src="{{basePath}}map.png" class="bg-image" mode="widthFix"/>
+    <view class="position_header bg-yellow">
+        <ui-img class="back" style="z-index:1;top:50%" src="{{basePath}}ze-arrow-left-copy.svg" width="48rpx"
+                height="48rpx" bind:tap="redictHome"></ui-img>
+        <view class="position-search">
+            <ui-search-bar isRight barBg="bg-opacity" placeholder="三兄弟数码科技">
+                <text style="color:#FF8A41">搜索</text>
+            </ui-search-bar>
+        </view>
+    </view>
+    <view class="park park-0">
+        <ui-img style="z-index:1003" src="{{basePath+location_tag}}" width="66rpx"
+                height="66rpx"></ui-img>
+    </view>
+    <view class="park park-1">
+        <view class="park-info park-info-text" style="position: fixed;right: 66rpx;top: 550rpx;width:20%">
+            距离最近
+        </view>
+        <ui-img style="z-index:1003" src="{{basePath+aid_tag}}" width="66rpx"
+                height="66rpx"></ui-img>
+    </view>
+    <view class="park park-2">
+        <ui-img style="z-index:1003" src="{{basePath+aid_tag}}" width="66rpx"
+                height="66rpx"></ui-img>
+    </view>
+    <view class="park park-3">
+        <ui-img style="z-index:1003" src="{{basePath+aid_tag}}" width="66rpx"
+                height="66rpx"></ui-img>
+    </view>
+    <ui-fixed bottom>
+        <view class="position-switch">
+            <view class="position-choose-wrapper">
+                <view class="circular color-blue"/>
+                <view class="position-now">
+                    <text>金融街512号</text>
+                    <view class="now-tip">您的位置</view>
+                </view>
+            </view>
+        </view>
+        <view class="quick-call-for-help">
+            <view>
+                向求救站发送我的实时位置
+            </view>
+        </view>
+    </ui-fixed>
+</ui-sys>

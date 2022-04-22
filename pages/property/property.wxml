@@ -1,119 +1,138 @@
 <ui-sys bg="ui-BG-5">
-<view style=" width:100%;height:450rpx;">
-<view class="my-navbar">
-  <view>
-    <ui-img class="back-arrow" src="../../../../asserts/arrow-left-white.svg" width="24px"
-            height="24px" bind:tap="redictHome"/>
-  </view>
-
-  <view class="in-navbar">
-      <view>
-            <view class="in-nav-list flex-center" style="background-color: #f23e3e;">
-                <ui-img src="../../../../asserts/pp-note.svg" width="70rpx"
-                        height="70rpx"/>
+    <view style=" width:100%;height:450rpx;">
+        <view class="my-navbar">
+            <view>
+                <ui-img class="back-arrow" src="{{basePath}}ze-arrow-left-copy.svg" width="24px"
+                        height="24px" bind:tap="redictHome"/>
             </view>
-            <view class="flex-center" style="width: 100%;"> <text class="text-16 text-black">物业通知</text> </view>
-        </view>
 
-        <view>
-            <view  class="in-nav-list flex-center" style="background-color: #339128;">
-                <ui-img src="../../../../asserts/pp-light.svg" width="70rpx"
-                        height="70rpx"/>
+            <view class="in-navbar">
+                <view>
+                    <view class="in-nav-list flex-center" style="background-color: #f23e3e;">
+                        <ui-img src="{{basePath}}pp-note.svg" width="70rpx"
+                                height="70rpx"/>
+                    </view>
+                    <view class="flex-center" style="width: 100%;">
+                        <text class="text-16 text-black">物业通知</text>
+                    </view>
+                </view>
+
+                <view>
+                    <view class="in-nav-list flex-center" style="background-color: #339128;">
+                        <ui-img src="{{basePath}}pp-light.svg" width="70rpx"
+                                height="70rpx"/>
+                    </view>
+                    <view class="flex-center" style="width: 100%;">
+                        <text class="text-16 text-black">缴电费</text>
+                    </view>
+                </view>
+
+                <view>
+                    <view class="in-nav-list flex-center" style="background-color: #50adff;">
+                        <ui-img src="{{basePath}}sp-water.svg" width="70rpx"
+                                height="70rpx"/>
+                    </view>
+                    <view class="flex-center" style="width: 100%;">
+                        <text class="text-16 text-black">水控</text>
+                    </view>
+                </view>
+
+                <view>
+                    <view class="in-nav-list flex-center" style="background-color: #ff8a41;">
+                        <ui-img src="{{basePath}}wallet.svg" width="70rpx"
+                                height="70rpx"/>
+                    </view>
+                    <view class="flex-center" style="width: 100%;">
+                        <text class="text-16 text-black">余额查询</text>
+                    </view>
+                </view>
+
             </view>
-            <view class="flex-center" style="width: 100%;"> <text class="text-16 text-black">缴电费</text> </view>
+
         </view>
-
-        <view>
-            <view  class="in-nav-list flex-center" style="background-color: #50adff;">
-                <ui-img src="../../../../asserts/sp-water.svg" width="70rpx"
-                        height="70rpx"/>
-            </view>
-            <view class="flex-center" style="width: 100%;"> <text class="text-16 text-black">水控</text> </view>
-        </view>
-
-        <view>
-            <view   class="in-nav-list flex-center" style="background-color: #ff8a41;">
-                <ui-img src="../../../../asserts/wallet.svg" width="70rpx"
-                        height="70rpx"/>
-            </view>
-            <view class="flex-center" style="width: 100%;"> <text class="text-16 text-black">余额查询</text> </view>
-        </view>
-
-
-  </view>
-
-</view>
-
-</view>
-<!-- navbar end -->
-
-<view class="banner p-3" >
-
-    <view class="flex-center">
-
-    <ui-img src="../../../../asserts/pp-speaker.svg" width="50rpx" height="50rpx"></ui-img>
-    <view class="flex-center" style="height:50rpx; margin-left:10rpx;">
-      <text class="text-18 text-black">社区志愿者服务即将开始！</text>
-    </view>
 
     </view>
+    <!-- navbar end -->
 
-    <view class="">
-      <ui-img src="../../../../asserts/pp-close.svg" width="50rpx" height="50rpx"></ui-img>
+    <view class="banner p-3">
+
+        <view class="flex-center">
+
+            <ui-img src="{{basePath}}pp-speaker.svg" width="50rpx" height="50rpx"></ui-img>
+            <view class="flex-center" style="height:50rpx; margin-left:10rpx;">
+                <text class="text-18 text-black">社区志愿者服务即将开始！</text>
+            </view>
+
+        </view>
+
+        <view class="">
+            <ui-img src="{{basePath}}pp-close.svg" width="50rpx" height="50rpx"></ui-img>
+        </view>
     </view>
-</view>
 
 
-<!-- banner end -->
+    <!-- banner end -->
 
-<view style="background-color: #ffffff; width:100%;">
-<view class="title p-3">
-  <view> <text class="text-22 text-orange">物业通知   </text></view>
-  <view> <text class="text-16 text-dark-8">查看更多 > </text></view>
-</view>
+    <view style="background-color: #ffffff; width:100%;">
+        <view class="title p-3">
+            <view>
+                <text class="text-22 text-orange">物业通知 </text>
+            </view>
+            <view>
+                <text class="text-16 text-dark-8">查看更多 > </text>
+            </view>
+        </view>
 
-<view class="an-item p-3">
-  <view class="item-text">
-    <view> <text class="text-16 text-black text-mywrap">为确保已入住户在节日期间充分享受休息、放松心情，节假日期间</text> </view>
-    <view> <text class="text-14 text-dark-8" >2022.4.13 13: 08</text></view>
-  </view>
+        <view class="an-item p-3">
+            <view class="item-text">
+                <view>
+                    <text class="text-16 text-black text-mywrap">为确保已入住户在节日期间充分享受休息、放松心情，节假日期间...</text>
+                </view>
+                <view>
+                    <text class="text-14 text-dark-8">2022.4.13 13: 08</text>
+                </view>
+            </view>
 
-  <view>
-    <ui-img src="../../../../asserts/pp-i1.jpg" width="300rpx" height="200rpx"></ui-img>
-  </view>
+            <view>
+                <ui-img src="{{basePath}}pp-i1.jpg" width="300rpx" height="200rpx"></ui-img>
+            </view>
 
-</view>
-
-
-<view class="an-item p-3">
-  <view class="item-text">
-    <view> <text class="text-16 text-black text-mywrap">正在装修的业主，应注意提醒装修工人每天收工前检查户内门窗、水</text> </view>
-    <view> <text class="text-14 text-dark-8" >2022.4.15 14: 08</text></view>
-  </view>
-
-  <view>
-    <ui-img src="../../../../asserts/pp-i2.jpg" width="300rpx" height="200rpx"></ui-img>
-  </view>
-
-</view>
+        </view>
 
 
-<view class="an-item p-3">
-  <view class="item-text">
-    <view> <text class="text-16 text-black text-mywrap">正在装修的业主，应注意提醒装修工人每天收工前检查户内门窗,为确保已入住户在节日期间充分享受休息、放松心情，节假期期间....</text> </view>
-    <view> <text class="text-14 text-dark-8" >2022.4.16 13: 08</text></view>
-  </view>
+        <view class="an-item p-3">
+            <view class="item-text">
+                <view>
+                    <text class="text-16 text-black text-mywrap">正在装修的业主，应注意提醒装修工人每天收工前检查户内门窗,为确保已入住户在节日期间充分享受休息、放松心情，节假期期间....</text>
+                </view>
+                <view>
+                    <text class="text-14 text-dark-8">2022.4.15 14: 08</text>
+                </view>
+            </view>
 
-  <view>
-    <ui-img src="../../../../asserts/pp-i1.jpg" width="300rpx" height="200rpx"></ui-img>
-  </view>
+            <view>
+                <ui-img src="{{basePath}}pp-i2.jpg" width="300rpx" height="200rpx"></ui-img>
+            </view>
 
-</view>
-
-
-</view>
+        </view>
 
 
+        <view class="an-item p-3">
+            <view class="item-text">
+                <view>
+                    <text class="text-16 text-black text-mywrap">请大家将自家阳台上摆放的物品移至安全地方，以避免高空坠物;同时也请楼上住户不要将物品向楼下丢弃，以免伤及楼下行人及车辆和影响小区的卫生状况</text>
+                </view>
+                <view>
+                    <text class="text-14 text-dark-8">2022.4.16 13: 08</text>
+                </view>
+            </view>
+
+            <view>
+                <ui-img src="{{basePath}}propertyNotice.jpg" width="300rpx" height="200rpx"></ui-img>
+            </view>
+
+        </view>
+    </view>
 
 
 </ui-sys>

@@ -1,0 +1,140 @@
+.position_header {
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    background-image: url("https://cdn.jsdelivr.net/gh/Rewriterl/warm-heart@master/assets/bg.jpg");
+}
+
+.bg-image {
+    position: absolute;
+    left: 0;
+    top: 220rpx;
+    width: 100%;
+}
+
+.position-search {
+    position: fixed;
+    top: 10%;
+    width: 100%;
+}
+
+.bg-opacity {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.position-switch {
+    display: flex;
+    align-content: baseline;
+    align-items: center;
+    height: 126rpx;
+    width: 100%;
+    line-height: 40rpx;
+    border-radius: 40rpx;
+    background-color: rgba(251, 251, 251, 100);
+    color: rgba(16, 16, 16, 100);
+    font-size: 28rpx;
+}
+
+.position-choose {
+    display: inline-block;
+    margin-left: 40rpx;
+    height: 52rpx;
+    color: rgba(164, 156, 156, 100);
+    font-size: 36rpx;
+    text-align: left;
+}
+
+.position-now {
+    margin-bottom: 20rpx;
+    display: inline-block;
+    margin-left: 40rpx;
+    height: 52rpx;
+    color: rgba(0, 0, 0, 1);
+    font-size: 36rpx;
+    text-align: left;
+}
+
+.circular {
+    display: inline-block;
+    height: 70rpx;
+    width: 70rpx;
+    border-radius: 50%;
+}
+
+.color-red {
+    background-color: rgba(213, 94, 94, 100);
+}
+
+.color-blue {
+    background-color: rgba(71, 139, 200, 100);
+}
+
+.now-tip {
+    height: 40 prx;
+    color: rgba(164, 156, 156, 100);
+    font-size: 28rpx;
+    text-align: left;
+}
+
+.position-choose-wrapper {
+    height: 50%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-left: 20rpx;
+}
+
+.park {
+    position: absolute;
+}
+
+.park-0 {
+    left: 330rpx;
+    top: 620rpx;
+}
+
+.park-1 {
+    left: 270rpx;
+    top: 260rpx;
+}
+
+.park-2 {
+    left: 490rpx;
+    top: 590rpx;
+}
+
+.park-3 {
+    left: 158px;
+    top: 430px;
+}
+
+.quick-call-for-help {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 86rpx;
+    width: 100%;
+    line-height: 40rpx;
+    border-radius: 0px 0px 14px 14px;
+    background-color: rgba(242, 62, 62, 100);
+    justify-content: center;
+    font-size: 40rpx;
+    color: #fff;
+}
+
+.park-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 252rpx;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 100);
+    padding: 0 5rpx;
+}
+
+.park-info-text {
+    color: rgba(255, 138, 65, 100);
+    font-size: 14px;
+    margin-left: -24rpx;
+}

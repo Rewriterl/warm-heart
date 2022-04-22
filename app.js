@@ -9,5 +9,7 @@ App({
     getUserInfo: function () {
 
     },
-    globalData: {}
+    globalData: {
+        basePath:'https://cdn.jsdelivr.net/gh/Rewriterl/warm-heart@master/assets/'
+    }
 })

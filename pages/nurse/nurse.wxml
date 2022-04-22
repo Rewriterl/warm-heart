@@ -1,13 +1,13 @@
 <ui-sys bg="#FBF7F7">
     <view class="nurse-header">
-        <ui-img class="header-arrow" style="z-index:1" src="../../../../asserts/ze-arrow-left-copy.svg" width="24px"
-                height="24px" bind:tap="redictHome"></ui-img>
+        <ui-img class="back" src="{{basePath}}ze-arrow-left-copy.svg" width="50rpx"
+                height="50rpx" bind:tap="redictHome"/>
     </view>
     <view class="header-bg-s"></view>
     <view class="nurse-block"></view>
     <view class="user-info-wrapper">
         <view class="avatar-wrapper">
-            <ui-avatar ui="round sl" src="../../../../asserts/avatar.png"/>
+            <ui-avatar ui="round sl" src="{{basePath}}avatar.png"/>
         </view>
         <view class="text-grid">
             <text style="color: rgba(16, 16, 16, 100)">年迈的金爷爷</text>
@@ -16,7 +16,7 @@
         </view>
         <view class="text-wrapper p-2">
             <ui-img
-                    src="../../../../asserts/riLine-refresh-line.svg"
+                    src="{{basePath}}riLine-refresh-line.svg"
                     width="25rpx" height="25rpx"
                     style="display:inline-block"/>
             更新健康信息
@@ -24,7 +24,7 @@
     </view>
     <view class="menu-list">
         <view wx:for="{{menuListF}}" wx:key="index">
-            <ui-img ui="m-l-6" src="{{menuListF[index].imgUrl}}" width="80rpx"
+            <ui-img ui="m-l-6" src="{{basePath+menuListF[index].imgUrl}}" width="80rpx"
                     height="80rpx"/>
             <text>{{menuListF[index].iconName}}</text>
         </view>
@@ -32,13 +32,13 @@
     <view class="menu-list">
         <view wx:for="{{menuListS}}" wx:key="index">
             <view class="menu-list-t" style="background-color:{{menuListS[index].color}};">
-                <ui-img src="{{menuListS[index].imgUrl}}" width="60rpx"
+                <ui-img src="{{basePath+menuListS[index].imgUrl}}" width="60rpx"
                         height="60rpx"/>
             </view>
             <text>{{menuListS[index].iconName}}</text>
         </view>
     </view>
     <view style="margin-top:20rpx"></view>
-    <ui-img ui="radius border" src="../../../../asserts/swiper-1.png" local current="0"/>
+    <ui-img ui="radius border" src="{{basePath}}swiper-1.png" local current="0"/>
     <esInfo/>
 </ui-sys>

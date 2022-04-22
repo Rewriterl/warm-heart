@@ -1,46 +1,46 @@
 <view class="page">
-  <!--navbar-->
-  <view class="navbar">
-    <image class="back" src="{{back_arrow}}" bindtap="redictHome"></image>
-    <text class="hint_1">家庭户口本</text>
-  </view>
-  <!-- 家庭成员列表 -->
-  <view class="family_list" style="{{'height:'+family_list.length*200+'rpx'}}">
-    <view class="member_info" wx:for="{{family_list}}" wx:key="index">
-      <image class="info_image" src="{{family_list[index].member_image}}"></image>
-      <text class="info_name">{{family_list[index].member_name}}</text>
-      <text class="info_master" wx:if="{{family_list[index].isMaster}}">(户主)</text>
-      <!-- 身份证号码加密 -->
-      <wxs module="idCard">
-          var toHide = function(array) {
-            var mphone = array.substring(0, 4) + '***********' + array.substring(15);
-            return mphone;
-          }
-          module.exports.toHide = toHide;
-      </wxs>
-      <view class="info_number">身份证:{{idCard.toHide (family_list[index].member_number) }} </view>
-      <view class="hint_2">
-        <text class="hint_3">查看身份证照片</text>
-        <image class="right_arrow" src="{{right_arrow}}"></image>
-      </view>
-      <!-- 户口管理 -->
-      <view class="role_manager" wx:if="{{family_list[index].isMaster}}">
-        <image class="image_1" src="{{role_manager}}"></image>
-        <text class="hint_4">户口管理</text>
-      </view>
-      <!-- 指纹管理 -->
-      <view class="fingerprint">
-        <image class="image_2" src="{{fingerprint}}"></image>
-        <text class="hint_5">指纹管理</text>
-      </view>
-      <!-- 身份管理 -->
-      <view class="info_manager">
-        <image class="image_3" src="{{info_manager}}"></image>
-        <text class="hint_6">身份管理</text>
-      </view>
-
-      <view class="underline"></view>
+    <!--navbar-->
+    <view class="navbar">
+        <image class="back" src="{{basePath}}ze-arrow-left-copy.svg" bindtap="redictHome"></image>
+<!--        <text class="hint_1">家庭户口本</text>-->
     </view>
-  </view>
+    <!-- 家庭成员列表 -->
+    <view class="family_list" style="{{'height:'+family_list.length*200+'rpx'}}">
+        <view class="member_info" wx:for="{{family_list}}" wx:key="index">
+            <image class="info_image" src="{{basePath+family_list[index].member_image}}"></image>
+            <text class="info_name">{{family_list[index].member_name}}</text>
+            <text class="info_master" wx:if="{{family_list[index].isMaster}}">(户主)</text>
+            <!-- 身份证号码加密 -->
+            <wxs module="idCard">
+                var toHide = function (array) {
+                    var mphone = array.substring(0, 4) + '***********' + array.substring(15);
+                    return mphone;
+                }
+                module.exports.toHide = toHide;
+            </wxs>
+            <view class="info_number">身份证:{{idCard.toHide(family_list[index].member_number) }}</view>
+            <view class="hint_2">
+                <text class="hint_3">查看身份证照片</text>
+                <image class="right_arrow" src="{{right_arrow}}"></image>
+            </view>
+            <!-- 户口管理 -->
+            <view class="role_manager" wx:if="{{family_list[index].isMaster}}">
+                <image class="image_1" src="{{role_manager}}"></image>
+                <text class="hint_4">户口管理</text>
+            </view>
+            <!-- 指纹管理 -->
+            <view class="fingerprint">
+                <image class="image_2" src="{{fingerprint}}"></image>
+                <text class="hint_5">指纹管理</text>
+            </view>
+            <!-- 身份管理 -->
+            <view class="info_manager">
+                <image class="image_3" src="{{info_manager}}"></image>
+                <text class="hint_6">身份管理</text>
+            </view>
+
+            <view class="underline"></view>
+        </view>
+    </view>
 
 </view>

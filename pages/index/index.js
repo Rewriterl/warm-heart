@@ -1,5 +1,6 @@
 Page({
     data: {
+        basePath: getApp().globalData.basePath,
         showerror: "none",
         floatDisplay: "none",
         // listAdsuccess: true,
@@ -7,70 +8,77 @@ Page({
         // domain: domain,
         swiperList: [
             {
-                img: '../../../../asserts/swiper-1.png',
-                url: '#',
-                type: 'navigateTo' //直接跳转类型
+                img: 'swiper-1.jpg',
+                type: 'url'
+            },
+            {
+                img: 'swiper-2.jpg',
+                type: 'url'
+            },
+            {
+                img: 'swiper-3.jpg',
+                type: 'url'
             }
         ],
         isFirst: false, // 是否第一次打开,
         isLoading: false,
         logoWrapperList: [
             {
-                imgUrl: '../../../../asserts/arcoDesign-qrcode.svg',
+                imgUrl: 'qrcode-green.svg',
                 iconName: '健康码'
             },
             {
-                imgUrl: '../../../../asserts/ze-wechat.svg',
+                imgUrl: 'ze-wechat-brown.svg',
                 iconName: '行程码'
             },
             {
-                imgUrl: '../../../../asserts/ze-column.svg',
+                imgUrl: 'ze-column-yellow.svg',
                 iconName: '核酸检测'
             },
             {
-                imgUrl: '../../../../asserts/iconPark-smart-optimization.svg',
+                imgUrl: 'iconPark-smart-optimization-blue.svg',
                 iconName: '智能家居'
             }
         ],
         menuList: [
             {
-                mImgUrl: '../../../../asserts/ze-wap-home.svg',
+                mImgUrl: 'ze-wap-home.svg',
                 iconName: '社区信息'
             },
             {
-                mImgUrl: '../../../../asserts/riFill-gps-fill.svg',
+                mImgUrl: 'riFill-gps-fill.svg',
                 iconName: '位置'
             },
             {
-                mImgUrl: '../../../../asserts/ze-coupon-o.svg',
+                mImgUrl: 'ze-coupon-o.svg',
                 iconName: '家庭户口本'
             },
             {
-                mImgUrl: '../../../../asserts/iconPark-baby.svg',
+                mImgUrl: 'iconPark-baby.svg',
                 iconName: '育儿专区'
             },
             {
-                mImgUrl: '../../../../asserts/ze-shop-collect-o.svg',
+                mImgUrl: 'ze-shop-collect-o.svg',
                 iconName: '托管服务'
             },
             {
-                mImgUrl: '../../../../asserts/ze-youzan-shield.svg',
+                mImgUrl: 'ze-youzan-shield.svg',
                 iconName: '护工服务'
             },
             {
-                mImgUrl: '../../../../asserts/ze-hotel-o.svg',
+                mImgUrl: 'ze-hotel-o.svg',
                 iconName: '物业综合'
             },
             {
-                mImgUrl: '../../../../asserts/iconPark-leaves.svg',
+                mImgUrl: 'iconPark-leaves.svg',
                 iconName: '社区森林'
             },
             {
-                mImgUrl: '../../../../asserts/ze-balance-pay.svg',
-                iconName: '我的钱包'
+                mImgUrl: 'rescue.svg',
+                iconName: '紧急救援'
             },
             {
-                mImgUrl: '../../../../asserts/ze-weapp-nav.svg',
+                mImgUrl: 'ze-weapp-nav.svg',
                 iconName: '更多'
             }
         ]
@@ -78,19 +86,19 @@ Page({
 
     logoWrapperListSwitch: function (e) {
         console.log(e.currentTarget.dataset.index)
-        if (e.currentTarget.dataset.index == 0) {
+        if (e.currentTarget.dataset.index === 0) {
             wx.navigateTo({
                 // url: '../../pages/healthCode/healthCode',
             })
-        } else if (e.currentTarget.dataset.index == 1) {
+        } else if (e.currentTarget.dataset.index === 1) {
             wx.navigateTo({
                 // url: '../../pages/tripCode/tripCode',
             })
-        } else if (e.currentTarget.dataset.index == 2) {
+        } else if (e.currentTarget.dataset.index === 2) {
             wx.navigateTo({
                 url: '../../pages/nuclein/nuclein',
             })
-        } else if (e.currentTarget.dataset.index == 3) {
+        } else if (e.currentTarget.dataset.index === 3) {
             wx.navigateTo({
                 url: '../../pages/smarthome/Smarthome',
             })
@@ -99,43 +107,43 @@ Page({
 
     switchMenuList: function (e) {
         console.log(e.currentTarget.dataset.index)
-        if (e.currentTarget.dataset.index == 0) {
+        if (e.currentTarget.dataset.index === 0) {
             wx.navigateTo({
                 // url: '../../pages/community/community',
             })
-        } else if (e.currentTarget.dataset.index == 1) {
+        } else if (e.currentTarget.dataset.index === 1) {
             wx.navigateTo({
                 url: '../../pages/position/position',
             })
-        } else if (e.currentTarget.dataset.index == 2) {
+        } else if (e.currentTarget.dataset.index === 2) {
             wx.navigateTo({
                 url: '../../pages/householdRegister/HouseholdRegister',
             })
-        } else if (e.currentTarget.dataset.index == 3) {
+        } else if (e.currentTarget.dataset.index === 3) {
             wx.navigateTo({
                 url: '../../pages/parenting/parenting',
             })
-        } else if (e.currentTarget.dataset.index == 4) {
+        } else if (e.currentTarget.dataset.index === 4) {
             wx.navigateTo({
                 url: '../../pages/trusteeship/trusteeship',
             })
-        } else if (e.currentTarget.dataset.index == 5) {
+        } else if (e.currentTarget.dataset.index === 5) {
             wx.navigateTo({
                 url: '../../pages/nurse/nurse',
             })
-        } else if (e.currentTarget.dataset.index == 6) {
+        } else if (e.currentTarget.dataset.index === 6) {
             wx.navigateTo({
                 url: '../../pages/property/property',
             })
-        } else if (e.currentTarget.dataset.index == 7) {
+        } else if (e.currentTarget.dataset.index === 7) {
             wx.navigateTo({
                 url: '../../pages/forest/forest',
             })
-        } else if (e.currentTarget.dataset.index == 8) {
+        } else if (e.currentTarget.dataset.index === 8) {
             wx.navigateTo({
-                // url: '../../pages/wallet/wallet',
+                url: '../../pages/rescue/rescue',
             })
-        } else if (e.currentTarget.dataset.index == 9) {
+        } else if (e.currentTarget.dataset.index === 9) {
             wx.navigateTo({
                 // url: '../../pages/more/more',
             })

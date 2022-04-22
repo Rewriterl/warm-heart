@@ -13,7 +13,8 @@
     "pages/nuclein/nuclein",
     "pages/trusteeship/trusteeship",
     "pages/forest/forest",
-    "pages/householdRegister/HouseholdRegister"
+    "pages/householdRegister/HouseholdRegister",
+    "pages/rescue/rescue"
   ],
   "window": {
     "backgroundTextStyle": "light",

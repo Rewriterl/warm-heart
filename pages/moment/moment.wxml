@@ -1,12 +1,12 @@
-<ui-sys tabbar bg="bg-white">
+<ui-sys tabbar bg="ui-BG-5">
     <view class="moment-header">
         <view class="moment-search">
-            <ui-search-bar isRight barBg="bg-yellow" placeholder="家庭聚餐">
-                <text style="color:#fff">搜索</text>
+            <ui-search-bar isRight barBg="bg-opacity" placeholder="家庭聚餐">
+                <text style="color:#FF8A41">搜索</text>
             </ui-search-bar>
         </view>
     </view>
-    <view class="menu-block"></view>
+    <view style="height:20vh"></view>
     <view class="menu-list">
         <text class="menu-all">全部</text>
         <text class="menu-warn">救援</text>

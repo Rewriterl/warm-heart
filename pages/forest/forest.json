@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "ui-img": "/mp-cu/colorUI/components/ui-img/ui-img"
+    "ui-img": "/mp-cu/colorUI/components/ui-img/ui-img",
+    "ui-fixed": "/mp-cu/colorUI/components/ui-fixed/ui-fixed"
   }
 }

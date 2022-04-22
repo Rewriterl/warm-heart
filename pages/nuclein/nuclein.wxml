@@ -2,8 +2,8 @@
 <view class="page">
   <!--navbar-->
   <view class="navbar">
-    <image class="back" src="{{back_arrow}}" bindtap="backIndex"></image>
-    <text class="hint_1">核算预约</text>
+    <image class="back" src="{{basePath}}ze-arrow-left-copy.svg" bindtap="backIndex"></image>
+<!--    <text class="hint_1">核酸预约</text>-->
   </view>
 
   <!-- 主体信息 -->
