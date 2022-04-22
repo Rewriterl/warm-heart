@@ -20,7 +20,7 @@
     </view>
     <view style="height:10rpx"></view>
     <swiper autoplay="{{true}}" duration="{{1800}}" indicatorDots="{{true}}" easing-function="linear">
-        <block wx:for="{{swiperList}}">
+        <block wx:for="{{swiperList}}" wx:key="index">
             <swiper-item>
                 <image mode="widthFix" src="{{basePath+item.img}}" style="width:100%"/>
             </swiper-item>

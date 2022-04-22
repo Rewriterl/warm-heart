@@ -8,15 +8,15 @@ Page({
         // domain: domain,
         swiperList: [
             {
-                img: 'swiper-1.png',
+                img: 'swiper-1.jpg',
                 type: 'url'
             },
             {
-                img: 'swiper-2.png',
+                img: 'swiper-2.jpg',
                 type: 'url'
             },
             {
-                img: 'swiper-3.png',
+                img: 'swiper-3.jpg',
                 type: 'url'
             }
         ],
