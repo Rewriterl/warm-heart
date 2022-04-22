@@ -23,6 +23,12 @@
             <text class="menu-sub-text">{{MenuList[index].name}}</text>
         </view>
     </view>
-    <ui-img ui="radius border" src="{{basePath}}swiper-1.png" local current="0"/>
+    <swiper autoplay="{{true}}" duration="{{1800}}" indicatorDots="{{true}}" easing-function="linear">
+        <block wx:for="{{swiperList}}">
+            <swiper-item>
+                <image mode="widthFix" src="{{basePath+item.img}}" style="width:100%"/>
+            </swiper-item>
+        </block>
+    </swiper>
     <esInfo/>
 </ui-sys>

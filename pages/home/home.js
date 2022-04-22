@@ -5,6 +5,20 @@ Page({
      */
     data: {
         basePath: getApp().globalData.basePath,
+        swiperList: [
+            {
+                img: 'swiper-1.png',
+                type: 'url'
+            },
+            {
+                img: 'swiper-2.png',
+                type: 'url'
+            },
+            {
+                img: 'swiper-3.png',
+                type: 'url'
+            }
+        ],
         HeaderMenuList:[
             {
                 name:'家庭成员',

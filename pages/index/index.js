@@ -9,8 +9,15 @@ Page({
         swiperList: [
             {
                 img: 'swiper-1.png',
-                url: '#',
-                type: 'navigateTo' //直接跳转类型
+                type: 'url'
+            },
+            {
+                img: 'swiper-2.png',
+                type: 'url'
+            },
+            {
+                img: 'swiper-3.png',
+                type: 'url'
             }
         ],
         isFirst: false, // 是否第一次打开,

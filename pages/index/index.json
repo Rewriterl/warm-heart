@@ -2,6 +2,7 @@
   "enablePullDownRefresh": true,
   "navigationStyle": "custom",
   "usingComponents": {
-    "esInfo": "/components/esinfo/esInfo"
+    "esInfo": "/components/esinfo/esInfo",
+    "ui-swiper": "/mp-cu/colorUI/components/ui-swiper/ui-swiper"
   }
 }
