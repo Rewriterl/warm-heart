@@ -11,7 +11,7 @@
         </view>
     </view>
     <view class="ui-grid ui-cols-5">
-        <view class="ui-item my-ui-item" wx:for="{{menuList}}" wx:key="index"
+        <view hover-class="select-my-ui" class="ui-item my-ui-item" wx:for="{{menuList}}" wx:key="index"
               bind:tap="switchMenuList"
               data-index="{{index}}">
             <ui-img ui="text-center" width="80rpx" height="80rpx" src="{{basePath+menuList[index].mImgUrl}}"/>

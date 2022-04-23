@@ -73,6 +73,13 @@
     text-align: center;
 }
 
+.select-my-ui{
+    display: block;
+    padding: 24rpx 0 20rpx;
+    text-align: center;
+    background-color: rgb(170, 166, 166,0.15);
+}
+
 .my-ui-item image {
     width: 80rpx;
     height: 80rpx;
