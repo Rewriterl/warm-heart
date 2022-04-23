@@ -1,0 +1,90 @@
+.index-header{
+  height: 10vh;
+  width: 100%;
+  background-image: url("https://cdn.jsdelivr.net/gh/Rewriterl/warm-heart@master/assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.back{
+  position: absolute;
+  width: 50rpx;
+  height: 50rpx;
+  top: 5%;
+  left: 20rpx;
+}
+
+.answer{
+  position: absolute;
+  width: 90%;
+  height: 1000rpx;
+  top: 15%;
+  left: 5%;
+}
+
+.hint_1{
+  position: absolute;
+  width: 500rpx;
+  height: 80rpx;
+  left: 18%;
+  font-size: 30px;
+  font-family: KaiTi;
+  font-weight:bolder;
+  color: #FF8A41;
+}
+
+.problem{
+  position: absolute;
+  width: 100%;
+  height: 600rpx;
+  top: 100rpx;
+  background-color: #e9e9e9;
+}
+
+.hint_2{
+  position: absolute;
+  width: 90%;
+  height: 80rpx;
+  top: 40rpx;
+  left: 5%;
+  font-size: 16px;
+}
+
+.hint_3{
+  position: relative;
+  width: 90%;
+  height: 80rpx;
+  top: 140rpx;
+  left: 5%;
+  font-size: 16px;
+  
+}
+
+radio .wx-radio-input.wx-radio-input-checked{
+  content: '';
+  width: 40rpx;
+  height: 40rpx;
+  border:1px solid #FF8A41;
+  border-radius: 50%;
+  background-color:white;
+}
+
+radio .wx-radio-input.wx-radio-input-checked::before {
+  content: '';
+  width: 20rpx;
+  height: 20rpx;
+  border-radius: 50%;
+  background-color:#FF8A41;
+  }
+
+
+.next_problem{
+  position: absolute;
+  width: 100%;
+  height: 90rpx;
+  top: 750rpx;
+  color: white;
+  background-color: #FF8A41;
+  border-radius: 30rpx;
+}
