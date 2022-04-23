@@ -25,6 +25,11 @@
             <text class="logo-intro">森林</text>
         </view>
     </view>
+    <view class="problem" bind:tap="goProblem">
+        <view class="p-5 cicular bg-color-red"/>
+        <ui-img src="{{basePath}}fas-fa-tree.svg" width="27px" height="27px" class="problem-icon"></ui-img>
+        <text class="problem-logo-intro">答题赢成长度</text>
+    </view>
     <ui-fixed bottom>
         <view class="forest-footer">
             <ui-img class="cart-logo" src="{{basePath}}riLine-shopping-cart-2-line.svg" width="24px"

@@ -9,7 +9,8 @@
             </view>
         </view>
         <view class="home-menu">
-            <view hover-class="select-home-menu-item" class="home-menu-item" wx:for="{{HeaderMenuList}}" wx:key="index" bind:tap="switchHeaderMenuList" data-index="{{index}}">
+            <view hover-class="select-home-menu-item" class="home-menu-item" wx:for="{{HeaderMenuList}}" wx:key="index"
+                  bind:tap="switchHeaderMenuList" data-index="{{index}}">
                 <ui-img src="{{basePath+HeaderMenuList[index].icon}}" width="104rpx" height="100rpx"/>
                 <text style="{{HeaderMenuList[index].style}}" class="menu-text">{{HeaderMenuList[index].name}}</text>
             </view>

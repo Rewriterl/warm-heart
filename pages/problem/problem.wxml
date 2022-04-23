@@ -1,18 +1,18 @@
 <!-- navbar -->
 <view class="index-header">
-  <image class="back" src="{{basePath}}ze-arrow-left-copy.svg" bindtap="redictHome"/>
+    <image class="back" src="{{basePath}}ze-arrow-left-copy.svg" bindtap="goForest"/>
 </view>
 
 <view class="answer">
-  <text class="hint_1">抗灾害知识答题</text>
-  <view class="problem">
-    <view class="hint_2">{{problem[index].problem}}</view>
-    <radio-group bindchange="radioChange">
-      <radio value='A' class="hint_3">{{problem[index].A}}</radio>
-      <radio value='B' class="hint_3">{{problem[index].B}}</radio>
-      <radio value='C' class="hint_3">{{problem[index].C}}</radio>
-      <radio value='D' class="hint_3">{{problem[index].D}}</radio>
-    </radio-group>
-  </view>
-  <button class="next_problem" bindtap="nextProblem">下一题</button>
+    <text class="hint_1">抗灾害知识答题</text>
+    <view class="problem">
+        <view class="hint_2">{{problem[index].problem}}</view>
+        <radio-group bindchange="radioChange">
+            <radio value='A' class="hint_3">{{problem[index].A}}</radio>
+            <radio value='B' class="hint_3">{{problem[index].B}}</radio>
+            <radio value='C' class="hint_3">{{problem[index].C}}</radio>
+            <radio value='D' class="hint_3">{{problem[index].D}}</radio>
+        </radio-group>
+    </view>
+    <button class="next_problem" bindtap="nextProblem">下一题</button>
 </view>

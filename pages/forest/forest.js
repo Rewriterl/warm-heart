@@ -13,4 +13,12 @@ Page({
             url: url
         });
     },
+
+    goProblem: function (e) {
+        var id = e.currentTarget.dataset.id,
+            url = '/pages/problem/problem';
+        wx.navigateTo({
+            url: url
+        });
+    },
 });

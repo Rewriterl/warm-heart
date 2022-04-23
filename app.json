@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/problem/problem",
     "pages/index/index",
+    "pages/problem/problem",
     "pages/smarthome/Smarthome",
     "pages/parenting/parenting",
     "pages/moment/moment",
@@ -16,7 +16,7 @@
     "pages/forest/forest",
     "pages/householdRegister/HouseholdRegister",
     "pages/rescue/rescue"
-    
+
   ],
   "window": {
     "backgroundTextStyle": "light",

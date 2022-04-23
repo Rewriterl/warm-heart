@@ -41,7 +41,7 @@
 }
 
 .cicular {
-    border-radius: 50px;
+    border-radius: 50%;
 }
 
 .drop {
@@ -53,4 +53,30 @@
 .logo-intro {
     margin-left: 58rpx;
     font-size: 15px;
+}
+
+.problem{
+    position: fixed;
+    bottom: 224rpx;
+    margin-left: 580rpx;
+}
+
+.bg-color-red {
+    background-color: rgba(242, 62, 62, 100);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.problem-icon{
+    position: fixed;
+    right: 85rpx;
+    bottom: 250rpx;
+}
+
+.problem-logo-intro{
+    position: fixed;
+    font-size: 22rpx;
+    color: rgba(16, 16, 16, 100);
+    font-weight: bold;
 }
