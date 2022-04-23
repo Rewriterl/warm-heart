@@ -27,7 +27,7 @@
     </view>
     <view class="problem" bind:tap="goProblem">
         <view class="p-5 cicular bg-color-red"/>
-        <ui-img src="{{basePath}}fas-fa-tree.svg" width="27px" height="27px" class="problem-icon"></ui-img>
+        <ui-img src="{{basePath}}ze-medel.svg" width="27px" height="27px" class="problem-icon"></ui-img>
         <text class="problem-logo-intro">答题赢成长度</text>
     </view>
     <ui-fixed bottom>
