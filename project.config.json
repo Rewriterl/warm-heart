@@ -62,6 +62,91 @@
           "pathName": "",
           "title": "",
           "cacheKey": ""
+=======
+    "description": "项目配置文件",
+    "packOptions": {
+        "ignore": [
+            {
+                "type": "folder",
+                "value": "assets"
+            }
+        ]
+    },
+    "setting": {
+        "urlCheck": false,
+        "es6": true,
+        "enhance": true,
+        "postcss": true,
+        "preloadBackgroundData": false,
+        "minified": true,
+        "newFeature": true,
+        "coverView": true,
+        "nodeModules": true,
+        "autoAudits": false,
+        "showShadowRootInWxmlPanel": true,
+        "scopeDataCheck": false,
+        "uglifyFileName": true,
+        "checkInvalidKey": true,
+        "checkSiteMap": true,
+        "uploadWithSourceMap": true,
+        "compileHotReLoad": true,
+        "lazyloadPlaceholderEnable": false,
+        "useMultiFrameRuntime": true,
+        "useApiHook": true,
+        "useApiHostProcess": true,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        },
+        "useIsolateContext": true,
+        "userConfirmedBundleSwitch": false,
+        "packNpmManually": false,
+        "packNpmRelationList": [],
+        "minifyWXSS": true,
+        "disableUseStrict": false,
+        "minifyWXML": true,
+        "showES6CompileOption": false,
+        "useCompilerPlugins": [
+            "sass"
+        ],
+        "ignoreUploadUnusedFiles": true
+    },
+    "compileType": "miniprogram",
+    "libVersion": "2.21.3",
+    "appid": "wx29d3ecc285a96acc",
+    "projectname": "warm-heart",
+    "simulatorType": "wechat",
+    "simulatorPluginLibVersion": {},
+    "condition": {
+        "search": {
+            "list": [
+                {
+                    "name": "test",
+                    "pathName": "",
+                    "title": "",
+                    "cacheKey": ""
+                }
+            ]
+        },
+        "conversation": {
+            "list": [
+                {
+                    "name": "test",
+                    "query": "",
+                    "boxQI": "",
+                    "service": {}
+                }
+            ]
+        },
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": []
         }
       ]
     },
