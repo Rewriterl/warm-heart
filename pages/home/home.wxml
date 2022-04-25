@@ -1,9 +1,9 @@
 <ui-sys tabbar bg="ui-BG-5">
     <view class="home-header">
         <view class="user-info-wrapper user-avatar">
-            <ui-avatar ui="round sl" src="{{basePath}}avatar.png"/>
+            <ui-avatar ui="round sl" src="{{basePath}}WechatIMG1267.jpeg"/>
             <view class="user-info-block">
-                <text class="username">汪汪一家</text>
+                <text class="username">幸福一家人</text>
                 <text class="user-account">家庭账号：20220413</text>
                 <view class="home-zone">查看家庭空间></view>
             </view>

@@ -7,7 +7,7 @@
     <view class="nurse-block"></view>
     <view class="user-info-wrapper">
         <view class="avatar-wrapper">
-            <ui-avatar ui="round sl" src="{{basePath}}avatar.png"/>
+            <ui-avatar ui="round sl" src="{{basePath}}WechatIMG1272.jpeg"/>
         </view>
         <view class="text-grid">
             <text style="color: rgba(16, 16, 16, 100)">年迈的金爷爷</text>

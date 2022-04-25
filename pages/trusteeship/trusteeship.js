@@ -12,15 +12,15 @@ Page({
         right_arrow: "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNjUwMTk1MTIzNzU4IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9Ijc1NTAiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCI+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48L3N0eWxlPjwvZGVmcz48cGF0aCBkPSJNNzExLjYgNDg4LjYyNEwzNTUuMiAxNTIuOTc2YTI5LjM2IDI5LjM2IDAgMCAwLTQyLjM1MiAwIDMxLjQwOCAzMS40MDggMCAwIDAgMCA0My41NTJMNjQ3Ljc2IDUxMiAzMTIuODQ4IDgyNy4zNmEzMS40MDggMzEuNDA4IDAgMCAwIDAgNDMuNTUyIDI5LjM2IDI5LjM2IDAgMCAwIDQyLjM1MiAwbDM1Ni40LTMzNS42NDhhMzYuMzIgMzYuMzIgMCAwIDAgMC00Ni42NHoiIHAtaWQ9Ijc1NTEiIGZpbGw9IiNGRjhBNDEiPjwvcGF0aD48L3N2Zz4=",
         pet_list: [
             {
-                pet_name: "大哈",
-                pet_image: "dog1.png",
+                pet_name: "小丽",
+                pet_image: "WechatIMG1274.jpeg",
                 pet_status: true,
                 pet_address: "A103 04座位",
             },
 
             {
-                pet_name: "二哈",
-                pet_image: "dog2.png",
+                pet_name: "小李",
+                pet_image: "WechatIMG1275.jpeg",
                 pet_status: false,
                 pet_address: "",
             },
